@@ -13,6 +13,6 @@ permalink: /
 ### Land tabular enterprise data with confidence, efficiency and quality
 {: .fs-5 .move-up }
 
-# The power frontend to the CsvPath Framework
+# The power frontend to CsvPath Framework
 
 
