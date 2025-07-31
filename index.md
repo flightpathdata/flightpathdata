@@ -31,15 +31,15 @@ FlightPath is both a development and an operations tool. It makes development mo
 
     Providing in-context help.
 
-On the DataOps operations side, FlightPath:
+On the DataOps operations side, FlightPath makes you more effective by:
 
-    Helps you find data
+    Helping you find data
 
-    Trace how data changes version-to-version and run-to-run
+    Tracing how data changes version-to-version and run-to-run
 
-    Quickly stage files and load named-paths groups, and
+    Quickly staging files and loading named-paths groups, and
 
-    Assists you in creating references and templates to match your operating requirements
+    Assisting you in creating references and templates to match your operating requirements
 
 
 # Infrastructure and Integrations
