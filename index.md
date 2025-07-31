@@ -19,6 +19,51 @@ Preboarding inbound tabular data before it lands in your data lake, applications
 
 FlightPath is open, free, and cross-platform. Find it on the [Apple MacOS Store](https://apps.apple.com/us/app/flightpath-data/id6745823097?mt=12), the [Microsoft Store](https://apps.microsoft.com/detail/9P9PBPKZ4JDF), or on [GitHub](https://github.com/dk107dk/flightpath/tree/main).
 
+# Development and Operations
 
+FlightPath is both a development and an operations tool. It makes development more agile by:
+
+    Helping you spin up preboarding projects quickly
+
+    Providing examples and guardrails
+
+    Minimizing configuration tasks, and
+
+    Providing in-context help.
+
+On the DataOps operations side, FlightPath:
+
+    Helps you find data
+
+    Trace how data changes version-to-version and run-to-run
+
+    Quickly stage files and load named-paths groups, and
+
+    Assists you in creating references and templates to match your operating requirements
+
+
+# Infrastructure and Integrations
+
+FlightPath runs on MacOS and Windows 11. It supports all the same infrastructure backends that CsvPath Framework does. The storage backends are:
+
+    AWS S3
+
+    Azure Blob Storage
+
+    Google Cloud Storage
+
+    SFTP
+
+    Locally mounted file systems
+
+FlightPath makes it easy to configure CsvPath Framework's integrations, including Slack, OpenTelemetry, OpenLineage, webhooks, and more.
+
+# Quick links
+💡Preboarding For Success
+✨FlightPath Features
+
+### Get Started
+
+When you open a FlightPath a default project is automatically created. As in every project, FlightPath generates a set of simple examples that show you how to write CsvPath Language and deploy to the CsvPath Framework. FlightPath also has in-context help for every feature and a documentation window that helps guide your use of CsvPath Framework capabilities.
 
 
