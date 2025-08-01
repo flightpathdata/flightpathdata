@@ -32,5 +32,10 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "just-the-docs"
 
+#gem "jekyll-remote-theme"
+
+#gem "just-the-docs", "0.10.1" # pinned to the current release
+gem "just-the-docs"        # always download the latest release
+
+gem "webrick"
