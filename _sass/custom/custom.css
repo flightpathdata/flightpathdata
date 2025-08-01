@@ -1,9 +1,10 @@
 
 .move-up {
     position:relative;
-    top: -40px;
-    left:25px;
+    top: -10px;
+    left:0px;
     color:#777;
+    font-style:italic;
 }
 
 p.main-image img {
@@ -11,3 +12,11 @@ p.main-image img {
     height:480px;
 }
 
+
+.nav-list-link {
+    color:#000
+}
+
+a {
+    color: rgb(61, 118, 227)
+}

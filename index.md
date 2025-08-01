@@ -8,7 +8,6 @@ nav_order: 1
 description: "FlightPath Data is a DataOps tool for data preboarding that helps you bring external tabular datasets into the enterprise with confidence, efficiency, and quality. "
 permalink: /
 ---
-# FlightPath Data
 ### Land tabular enterprise data with confidence, efficiency and quality
 {: .fs-5 .move-up }
 
@@ -54,10 +53,13 @@ FlightPath makes it easy to configure CsvPath Framework's integrations, includin
 
 # Quick links
 💡 Preboarding For Success
+
 ✨ FlightPath Features
 
-### Get Started
+### Get Started!
 
-When you open a FlightPath a default project is automatically created. As in every project, FlightPath generates a set of simple examples that show you how to write CsvPath Language and deploy to the CsvPath Framework. FlightPath also has in-context help for every feature and a documentation window that helps guide your use of CsvPath Framework capabilities.
+When you open a FlightPath a default project is automatically created. FlightPath generates a set of simple examples in every project to help you get going.
+
+The examples show you how to write CsvPath Language and deploy it to the CsvPath Framework. FlightPath also has in-context help for every feature and a documentation window that guides your use of CsvPath Framework capabilities.
 
 
