@@ -13,6 +13,9 @@ permalink: /
 ### Land tabular enterprise data with confidence, efficiency and quality
 {: .fs-5 .move-up }
 
+![](../../assets/images/whole-app.jpg)
+{: .main-image }
+
 # The power frontend for CsvPath Framework
 
 Preboarding inbound tabular data before it lands in your data lake, applications, or analytics lowers risk and reduces frustration and costs. [CsvPath Framework](https://www.csvpath.org) is the leading data preboarding infrastructure and FlightPath is the way to turbo charge it.
@@ -23,44 +26,33 @@ FlightPath is open, free, and cross-platform. Find it on the [Apple MacOS Store]
 
 FlightPath is both a development and an operations tool. It makes development more agile by:
 
-    Helping you spin up preboarding projects quickly
-
-    Providing examples and guardrails
-
-    Minimizing configuration tasks, and
-
-    Providing in-context help.
+* Helping you spin up preboarding projects quickly
+* Providing examples and guardrails
+* Minimizing configuration tasks, and
+* Providing in-context help.
 
 On the DataOps operations side, FlightPath makes you more effective by:
 
-    Helping you find data
-
-    Tracing how data changes version-to-version and run-to-run
-
-    Quickly staging files and loading named-paths groups, and
-
-    Assisting you in creating references and templates to match your operating requirements
-
+* Helping you find data
+* Tracing how data changes version-to-version and run-to-run
+* Quickly staging files and loading named-paths groups, and
+* Assisting you in creating references and templates to match your operating requirements
 
 # Infrastructure and Integrations
 
 FlightPath runs on MacOS and Windows 11. It supports all the same infrastructure backends that CsvPath Framework does. The storage backends are:
 
-    AWS S3
-
-    Azure Blob Storage
-
-    Google Cloud Storage
-
-    SFTP
-
-    Locally mounted file systems
+* AWS S3
+* Azure Blob Storage
+* Google Cloud Storage
+* SFTP servers
+* Locally mounted file systems
 
 FlightPath makes it easy to configure CsvPath Framework's integrations, including Slack, OpenTelemetry, OpenLineage, webhooks, and more.
 
 # Quick links
-💡Preboarding For Success
-✨FlightPath Features
+💡 Preboarding For Success
+✨ FlightPath Features
 
 ### Get Started
 

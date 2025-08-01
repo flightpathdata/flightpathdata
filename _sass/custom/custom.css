@@ -5,3 +5,9 @@
     left:25px;
     color:#777;
 }
+
+p.main-image img {
+    width: 768px;
+    height:480px;
+}
+
