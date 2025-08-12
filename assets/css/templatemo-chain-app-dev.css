@@ -1069,7 +1069,7 @@ Services Style
 .service-item:hover h4,
 .service-item:hover p,
 .service-item:hover .text-button a {
-  color: #185bdf;
+  color: #0639bd;
 }
 
 service-item h4 {
@@ -1114,6 +1114,7 @@ service-item h4 {
   background-position:  top;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity:85%;
 }
 
 
