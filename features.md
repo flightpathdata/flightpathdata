@@ -43,7 +43,7 @@ Then you can simply right-click any file to stage it in your choice of storage b
 
 <figure><img src="assets/app_images/stage_data_dialog.png" alt="" width="660"><figcaption></figcaption></figure>
 
-Give the new named-file a simple, memorable name. Optionally, add a template if you want a particular filesystem path. You can include elements of the original file path in the template.
+Give the new named-file a simple, memorable name. Optionally, add a template if you want a particular file system path. You can include elements of the original file path in the template.
 
 <figure><img src="assets/app_images/staged_data_window.png" alt="" width="400"><figcaption></figcaption></figure>
 

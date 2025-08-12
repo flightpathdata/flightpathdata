@@ -27,7 +27,7 @@ nav_order: 7
 ## What you need
 
 * Access to your archive. If you are working in S3 you will need an IAM user with read access. Your credentials will be in environment variables. You can set environment variable within FlightPath using the `env` tab in the config settings.
-* The named-file name. Physical files are staged within named-files. A named file can be setup with any directory structure required, so you have to be familar with the data delivery naming conventions, if they are replicated in your named-file layout.
+* The named-file name. Physical files are staged within named-files. A named file can be setup with any directory structure required, so you have to be familiar with the data delivery naming conventions, if they are replicated in your named-file layout.
 
 
 
