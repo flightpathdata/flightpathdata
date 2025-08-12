@@ -237,6 +237,16 @@ body {
   color: #fff !important;
 }
 
+.white-button.second_rank a {
+  background-color: #4b8ef1;
+  color: #fff !important;
+}
+
+.white-button.second_rank.apple {
+    margin-right:20px;
+}
+
+
 .text-button a {
   font-size: 15px;
 }
@@ -311,7 +321,8 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #fff;
+  /*color: #fff;*/
+  color: #2a2a2a;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -333,11 +344,11 @@ header
   bottom: -20px;
   transform: translateX(-50%);
 }
-
+/*
 .background-header .nav li:last-child a.active:after {
   background-color: transparent;
 }
-
+*/
 .header-area {
   background-color: transparent;
   border-bottom: 1px solid rgba(42,42,42,0.2);
@@ -405,20 +416,21 @@ header
   padding-left: 40px;
 }
 
-.header-area .main-nav .nav li:last-child a ,
+/*
 .background-header .main-nav .nav li:last-child a,
 .header-area .main-nav .nav li:nth-child(6) a ,
 .background-header .main-nav .nav li:nth-child(6) a {
   padding: 0px 20px !important;
   font-weight: 400;
 }
-
-.header-area .main-nav .nav li:last-child a:hover ,
+*/
+/*
 .background-header .main-nav .nav li:last-child a:hover,
 .header-area .main-nav .nav li:nth-child(6) a:hover ,
 .background-header .main-nav .nav li:nth-child(6) a:hover {
   color: #fff !important;
 }
+*/
 
 .header-area .main-nav .nav li a {
   display: block;
@@ -440,11 +452,11 @@ header
 .header-area .main-nav .nav li a.active {
   color: #4b8ef1!important;
 }
-
+/*
 .header-area .main-nav .nav li:last-child a.active {
   color: #fff !important;
 }
-
+*/
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
   color: #4b8ef1!important;
@@ -959,7 +971,8 @@ Banner Style
   max-width: 710px;
 }
 
-.main-banner .left-content .white-button a {
+.main-banner .left-content .white-button a
+{
   background-color: #4b8ef1;
   color: #fff !important;
 }
@@ -1383,8 +1396,8 @@ The Clients
 }
 
 .pricing-item-regular span.price {
-  font-size: 40px;
-  color: #fff;
+  font-size: 24px;
+  color: #4b8ef1;
   position: absolute;
   font-weight: 700;
   z-index: 1;
@@ -1399,8 +1412,8 @@ The Clients
 }
 
 .pricing-item-regular .icon img {
-  width: 120px;
-  height: 106px;
+  width: 200px;
+  /*height: 106px;*/
   margin-bottom: 30px;
 }
 
@@ -1460,7 +1473,7 @@ The Clients
 }
 
 .pricing-item-pro span.price {
-  font-size: 40px;
+  font-size: 26px;
   color: #fff;
   position: absolute;
   font-weight: 700;
@@ -1477,7 +1490,12 @@ The Clients
 
 .pricing-item-pro .icon img {
   width: 120px;
-  height: 106px;
+  /*height: 106px;*/
+  margin-bottom: 30px;
+}
+
+.pricing-item-regular .icon.gray img {
+  width: 95px;
   margin-bottom: 30px;
 }
 
@@ -1641,14 +1659,25 @@ footer #search button:hover {
   color: #4b8ef1;
 }
 
-.footer-widget .logo img {
-  max-width: 96px;
-  margin-bottom: 30px;
+.footer-widget .logo.atesta-analytics img {
+  max-width: 250px;
 }
+
+.footer-widget .logo.flightpath img {
+  margin-top:10px;
+  width: 220px;
+}
+
+.footer-widget .logo.csvpath img {
+  margin-top:10px;
+  width: 175px;
+}
+
+
 
 .footer-widget h4 {
   font-size: 20px;
-  color: #fff;
+  color: #000;
   font-weight: 700;
   margin-bottom: 30px;
 }
@@ -1659,7 +1688,7 @@ footer #search button:hover {
 
 .footer-widget p,
 .footer-widget p a {
-  color: #fff;
+  color: #000;
 }
 
 .footer-widget ul {
@@ -1670,7 +1699,8 @@ footer #search button:hover {
 }
 
 .footer-widget ul li {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  line-height:18px;
 }
 
 .footer-widget ul li:last-child {
@@ -1678,8 +1708,8 @@ footer #search button:hover {
 }
 
 .footer-widget ul li a {
-  font-size: 15px;
-  color: #fff;
+  font-size: 20px;
+  color: #000;
   transition: all .3s;;
 }
 
@@ -1691,7 +1721,7 @@ footer .copyright-text p {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 0px;
-  color: #fff;
+  color: #000;
 }
 
 footer p a {
