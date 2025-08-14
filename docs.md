@@ -55,11 +55,11 @@ FlightPath makes it easy to configure CsvPath Framework's integrations, includin
 # Quick links
 💡 [Preboarding For Success](preboarding.html)
 
-✨ FlightPath Features
+✨ [FlightPath Features](features.html)
 
 ### Get Started!
 
-When you open a FlightPath a default project is automatically created. FlightPath generates a set of simple examples in every project to help you get going.
+When you open FlightPath a default project is automatically created. FlightPath generates a set of simple examples in every project to help you get going.
 
 The examples show you how to write CsvPath Language and deploy it to the CsvPath Framework. FlightPath also has in-context help for every feature and a documentation window that guides your use of CsvPath Framework capabilities.
 
