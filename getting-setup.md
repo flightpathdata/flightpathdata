@@ -15,7 +15,7 @@ permalink: /getting-started.html
     <tr>
         <td>
             <img src="assets/images/Apple MacOS Store.png" alt="" width="188"><br/>
-            <a href="https://apps.apple.com/us/app/flightpath-data/id6745823097?mt=12">Apple Mac Store</a>
+            <a href="https://apps.apple.com/us/app/flightpath-data/id6745823097">Apple Mac Store</a>
         </td>
         <td>
             <img src="assets/images/Microsoft Store.svg.png" alt="" width="188"><br/>
