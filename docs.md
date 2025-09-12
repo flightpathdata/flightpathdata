@@ -13,6 +13,7 @@ permalink: /docs.html
 {: .fs-5 .move-up }
 
 <img src="assets/logos/logo-wordmark_lg.png"/>
+{: .headline-logo }
 
 # The power frontend for CsvPath Framework
 

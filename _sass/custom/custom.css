@@ -1,4 +1,77 @@
 
+/* right side width */
+
+@media (min-width: 50rem) {
+    .main {
+        max-width: 60.5rem;
+    }
+}
+
+.headline-logo {
+    max-width:500px;
+}
+
+/* headers */
+
+.site-logo {
+    width:240px;
+}
+.site-nav, .site-header, .site-footer {
+    width: 25.5rem;
+}
+
+div#main-header.main-header,
+div.site-header,
+nav.aux-nav {
+    height: 100px;
+    max-height:none;
+}
+
+.main-header, .site-header {
+    border-bottom: 1px solid rgba(42, 42, 42, 0.2);
+}
+
+/* aux nav */
+
+.aux-nav-list-item {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(47, 56, 69);
+    font-size: 14.8px;
+    line-height:21px;
+    padding: 16px;
+    margin-top:30px;
+    font-weight:510;
+    text-transform: capitalize;
+}
+
+.site-button:hover {
+    background-image:none
+}
+
+.aux-nav .aux-nav-list-item {
+    display: inline-block;
+    height: 100%;
+    padding: 0 20px 0 20px;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.aux-nav-list-item a.site-button {
+    color: rgb(47, 56, 69);
+}
+
+.aux-nav-list-item a.site-button:hover {
+    transition: all 0.3s ease 0s;
+    color: rgb(61, 118, 227);
+}
+
+.aux-nav-list-item a.site-button:hover, a {
+    color: rgb(61, 118, 227)
+}
+
+/* other stuff */
+
 .move-up {
     position:relative;
     top: -10px;
@@ -13,10 +86,4 @@ p.main-image img {
 }
 
 
-.nav-list-link {
-    color:#000
-}
 
-a {
-    color: rgb(61, 118, 227)
-}

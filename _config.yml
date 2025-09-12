@@ -1,4 +1,4 @@
-title: FlightPath Data
+title: FlightPath
 email: info@flightpathdata.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -16,6 +16,16 @@ back_to_top_text: "Back to top"
 footer_content: 'Copyright &copy; 2017-2020 CsvPath committers; Atesta Analytics; D. Kershaw.'
 
 logo: "assets/logos/logo_wordmark_sm.png"
+#favicon_ico: "assets/images/favicon.ico"
+
+aux_links:
+  Home:
+    - https://www.flightpathdata.com
+  CsvPath:
+    - https://www.csvpath.org
+  Blog:
+    - https://blog.csvpath.org
+
 
 theme: just-the-docs
 
