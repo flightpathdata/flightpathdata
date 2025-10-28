@@ -1661,17 +1661,38 @@ footer #search button:hover {
 }
 
 .footer-widget .logo.atesta-analytics img {
-  max-width: 250px;
+  max-width: 210px;
 }
 
 .footer-widget .logo.flightpath img {
   margin-top:10px;
-  width: 220px;
+  width: 170px;
+  position:relative;
+  bottom:9px;
+  margin-left:5px;
+}
+
+.footer-widget .logo.flightpath.server img {
+  margin-top:10px;
+  width: 125px;
+  position: relative;
+  bottom:8px;
+  margin-left:5px;
+}
+.footer-widget .logo.flightpath.server div {
+}
+.footer-widget .logo.flightpath div {
+  height:40px;
+  width:185px;
+  background-color:#fff;
+  border-radius:8px;
+  margin-bottom:5px;
+  border: 1px solid #bbb;
 }
 
 .footer-widget .logo.csvpath img {
   margin-top:10px;
-  width: 175px;
+  width: 145px;
 }
 
 
