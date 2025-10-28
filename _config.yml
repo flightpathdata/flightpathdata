@@ -26,6 +26,17 @@ aux_links:
   Blog:
     - https://blog.csvpath.org
 
+nav_external_links:
+  - title: CsvPath Framework How-Tos
+    url: https://www.csvpath.org/topics/how-tos
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: OpenAPI Docs
+    url: https://www.flightpathdata.com/swagger/dist/#/
+    hide_icon: false
+    opens_in_new_tab: true
+
+
 
 theme: just-the-docs
 
@@ -52,6 +63,8 @@ theme: just-the-docs
 
 enable_copy_code_button: true
 
+
+
 callouts_level: quiet # or loud
 callouts:
   highlight:
@@ -68,6 +81,8 @@ callouts:
   warning:
     title: Warning
     color: red
+
+
 
 kramdown:
   syntax_highlighter_opts:

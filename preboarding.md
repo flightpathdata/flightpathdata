@@ -1,7 +1,7 @@
 ---
 title: 💡 Data Preboarding Success
 layout: home
-nav_order: 2
+nav_order: 5
 description: "Data preboarding is a DataOps process for bringing external tabular datasets into the enterprise and publishing them internally in a reliable way. "
 permalink: /preboarding.html
 ---
@@ -53,5 +53,20 @@ The world of data processing is awash in tools that solve for a huge range of us
 These few high-level guidelines are key to success. The other most important thing is taking the time to build the right process for the business you are supporting. Throwing bodies or handy tools built for other purposes at a preboarding problem may get you through the day, but in the long run, in data, expediencies tend to cause problems.
 
 For many companies, receiving a partner's data starts as a small effort to bring a limited amount of regular transactional data into the enterprise. But in a growing company, the small challenge of high-quality data intake sooner or later becomes becomes a bigger, knottier, and sometimes existential problem. A purpose-built data preboarding infrastructure like CsvPath Framework, coupled with [FlightPath](index.html), can make the difference between lurching from data crisis to data crisis and sleeping well at night.
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".nav-list-link").forEach(function (link) {
+      if (link.textContent.trim() === "FlightPath Data") {
+        link.closest(".nav-list-item").classList.add("active");
+      }
+    });
+    document.querySelectorAll(".nav-list-link").forEach(function (link) {
+      if (link.textContent.trim() === "FlightPath Server") {
+        link.closest(".nav-list-item").classList.add("active");
+      }
+    });
+  });
+</script>
 
 
