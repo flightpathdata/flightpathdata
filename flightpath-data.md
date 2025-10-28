@@ -9,7 +9,6 @@ description: "FlightPath Data is a DataOps tool for data preboarding that helps 
 permalink: /flightpath.html
 ---
 
-
 <div class="headline-logo">
     <img src="assets/logos/logo-wordmark_lg.png"/>
     <h1>The power frontend for CsvPath Framework</h1>
