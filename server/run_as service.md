@@ -13,7 +13,7 @@ permalink: /server/service.html
 
 ## A background process for automation
 {: .no_toc }
-FlightPath Server was built for automation. For that purpose, it should be available at all times. On Windows that means running it as a Windows service.
+FlightPath Server was built for automation. For that purpose, it should be available at all times. On Windows, that means running it as a Windows service.
 
 Using an `.exe` as a service is common and easy. There are several ways to do it, including the Task Scheduler or `sc.exe` utility from Microsoft. Servy is another friendly option.
 
