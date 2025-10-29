@@ -23,7 +23,7 @@ permalink: /flightpath.html
     <div style='width:100%; text-align:center;'>
         <img
             class='main-image'
-            src='assets/app_images/whole-app.jpg'
+            src='assets/app_images/first_project_animated4.gif'
             style='margin-left:auto; margin-right:auto;'
             />
         <div>
@@ -31,6 +31,17 @@ permalink: /flightpath.html
             <p class="label label-blue store-label mx-auto"><a href='https://apps.microsoft.com/detail/9P9PBPKZ4JDF'><i class="fab fa-windows"></i> Microsoft Store</a></p>
         </div>
     </div>
+    <!--div style='width:100%; text-align:center;'>
+        <img
+            class='main-image'
+            src='assets/app_images/whole-app.jpg'
+            style='margin-left:auto; margin-right:auto;'
+            />
+        <div>
+            <p class="label label-blue store-label mx-auto"><a href='https://apps.apple.com/us/app/flightpath-data/id6745823097?mt=12'><i class="fab fa-apple"></i> Apple MacOS Store</a></p>
+            <p class="label label-blue store-label mx-auto"><a href='https://apps.microsoft.com/detail/9P9PBPKZ4JDF'><i class="fab fa-windows"></i> Microsoft Store</a></p>
+        </div>
+    </div-->
 </div>
 
 
