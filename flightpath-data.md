@@ -12,15 +12,18 @@ permalink: /flightpath.html
 <div class="headline-logo">
     <img src="assets/logos/logo-wordmark_lg.png"/>
     <h1>The power frontend for CsvPath Framework</h1>
-    <h3 class='fs-5 move-up'>Land tabular enterprise data with confidence, efficiency and quality</h3>
-    <br/>
+    <h3 class='fs-5 move-up'>Land enterprise data file feeds with confidence, efficiency and quality</h3>
     <p>
-        FlightPath Data is open, free, and cross-platform. Find it on the
+        FlightPath Data is an open, free, and cross-platform preboarding solution.
+    </p>
+    <p style='position:relative;bottom:13px'>
+
+Find it on the
         <a href='https://apps.apple.com/us/app/flightpath-data/id6745823097?mt=12'>Apple MacOS Store</a>,
         the <a href='https://apps.microsoft.com/detail/9P9PBPKZ4JDF'>Microsoft Store</a>,
         or on <a href='https://github.com/dk107dk/flightpath/tree/main'>GitHub</a>.
     </p>
-    <div style='width:100%; text-align:center;'>
+    <div style='width:100%; text-align:center;margin-bottom:50px'>
         <img
             class='main-image'
             src='assets/app_images/first_project_animated4.gif'
@@ -49,7 +52,7 @@ permalink: /flightpath.html
 # Development and Operations
 
 Preboarding data file feeds before they land in your data lake, applications,
-or analytics lowers risk and reduces costs. <a href='https://www.csvpath.org'>CsvPath Framework</a>
+ analytics, or AI lowers risk and reduces costs. <a href='https://www.csvpath.org'>CsvPath Framework</a>
 is the leading data preboarding infrastructure.
 
 FlightPath Data supports both a development and operations. It makes development more agile by:
