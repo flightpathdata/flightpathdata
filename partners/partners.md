@@ -69,6 +69,13 @@ As time permits, we will be available for on the fly Q&A and support sessions. W
 
 Give us a heads up at <a href='mailto:support@csvpath.org'>support@csvpath.org</a> so we can be ready.
 
+
+# Project Sketches
+
+Preboarding projects can be short-duration process improvement efforts or substantial modernization or new-build engagements. Naturally, smaller projects are more common than major ones. This sketch is based on four recent preboarding process improvement projects that represent the typical requirements.
+
+* <a href='../assets/partners/Short-duration-preboarding-project-sketch.pdf'>Short-duration Project Sketch</a>
+
 # Commercial Relationships
 
 In certain cases, CsvPath Framework's lead sponsor, Atesta Analytics, enters commission-based partnerships. To discuss, contact dkershaw@atestaanalytics.com.
