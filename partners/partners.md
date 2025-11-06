@@ -9,7 +9,7 @@ permalink: /partners/partners.html
 
 <div class="headline-logo">
     <h1>Partners Assets</h1>
-    <h3 class='fs-5 move-up'>Support for mutually beneficial referrals and recommendations</h3>
+    <h3 class='fs-5 move-up'>Support for collaborative business development</h3>
     <p>
     </p>
 </div>
@@ -20,7 +20,7 @@ permalink: /partners/partners.html
 - TOC
 {:toc}
 
-While CsvPath Framework is an open source project, not a company, it has the same need to raise awareness and enthusiasm in order to grow. Atesta Analytics is the lead sponsor of CsvPath and FlightPath. It, the project committers, and other existing partners may benefit from the Framework gaining popularity. Your company or project could as well. And you can help make it happen.
+While CsvPath Framework is an open source project, not a company, it has the same need to raise awareness and enthusiasm in order to grow. Atesta Analytics is the lead sponsor of CsvPath and FlightPath. It, the project committers, and other existing partners may benefit from the Framework gaining popularity. Your company or project could as well. And you can help make that happen.
 <p>
 &nbsp;
 </p>
@@ -72,8 +72,9 @@ Give us a heads up at <a href='mailto:support@csvpath.org'>support@csvpath.org</
 
 # Project Sketches
 
-Preboarding projects can be short-duration process improvement efforts or substantial modernization or new-build engagements. Naturally, smaller projects are more common than major ones. This sketch is based on four recent preboarding process improvement projects that represent the typical requirements.
+Preboarding projects can be short-duration process improvement efforts or substantial modernization or new-build engagements. Naturally, smaller projects are more common than major ones.
 
+This sketch is based on four recent preboarding process improvement projects that represent the typical requirements.
 * <a href='../assets/partners/Short-duration-preboarding-project-sketch.pdf'>Short-duration Project Sketch</a>
 
 # Commercial Relationships
