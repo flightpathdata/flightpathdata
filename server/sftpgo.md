@@ -47,7 +47,7 @@ Click Event Manager > Actions > Add Action and create an action that calls the `
 ```json
                 {
                   "project_name": "my project",
-                  "file_location": "sftp://localhost:2022{{FsPath}}",
+                  "file_location": "{{.VirtualTargetDirPath}}",
                   "file_name": "invoices",
                   "csvpaths_group_name": "invoices",
                   "method": "collect_paths"
@@ -56,6 +56,8 @@ Click Event Manager > Actions > Add Action and create an action that calls the `
 ![](../assets/app_images/sftpgo-action-body.png)
 <div>Notice the placeholders. SFTPGo's docs explain how they work.</div>
 {: .caption }
+
+See the replacement vars descriptions here: https://docs.sftpgo.com/2.6/custom-actions/
 
 `invoices` is our new named-file. When the Fred account receives files they are registered as versions of `invoices` and are available by date, order, path, or identity. Then the file will be validated using a set of one or more csvpath scripts also called `invoices`. The run will use the `collect_paths` method. Collect paths gathers valid lines into a result file.
 
