@@ -51,23 +51,23 @@ Find it on the
 
 # Development and Operations
 
-Preboarding data file feeds before they land in your data lake, applications,
+Preboarding CSV, JSONL, and Excel file feeds before they land in your data lake, applications,
  analytics, or AI lowers risk and reduces costs. <a href='https://www.csvpath.org'>CsvPath Framework</a>
 is the leading data preboarding infrastructure.
 
 FlightPath Data supports both a development and operations. It makes development more agile by:
 
-* Helping you spin up preboarding projects quickly
-* Providing examples and guardrails
-* Minimizing configuration tasks, and
-* Providing in-context help.
+* Quickly spinning up **consistent preboarding projects**
+* **Data profiling** in development pipelines
+* Deploying **low-code integrations** and **server projects**
+* Providing **in-context help**
 
 On the DataOps operations side, FlightPath makes you more effective by:
 
-* Helping you find data
-* Tracing how data changes version-to-version and run-to-run
-* Quickly staging files and loading named-paths groups, and
-* Assisting you in creating references and templates to match your operating requirements
+* **Automating manual** data management processes
+* Quickly **staging data** and loading **validation and upgrading** scripts
+* Managing **immutable versions** and finding data from points in time
+* Tracing **lineage and operational metadata** so you can understand how data changes
 
 # Infrastructure and Integrations
 

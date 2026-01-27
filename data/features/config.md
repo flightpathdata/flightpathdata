@@ -1,7 +1,7 @@
 ---
 title: ✨ Project Configuration
 layout: home
-nav_order: 4
+nav_order: 5
 parent: ✨ FlightPath Data Features
 description: "FlightPath Data makes it easy to customize your project capabilities at any point. And using the Config panel you can also configure FlightPath Server projects."
 permalink: /data/config.html

@@ -1,7 +1,7 @@
 ---
 title: ✨ FlightPath Help and Documentation
 layout: home
-nav_order: 5
+nav_order: 6
 parent: ✨ FlightPath Data Features
 description: "FlightPath Data gives you all the in-context documentation, help, and runnable examples you need to get  started quickly"
 permalink: /data/help.html
