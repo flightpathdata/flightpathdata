@@ -8,7 +8,7 @@ permalink: /preboarding.html
 
 # 💡 Data Preboarding For DataOps Success
 
-### FlightPath was built to make data preboarding easy. But what is preboarding?
+### FlightPath Data was built to make data preboarding easy. But what is preboarding?
 {: .fs-5 .move-up }
 
 {: .highlight }
@@ -26,7 +26,7 @@ Careful handling during the receipt of new data should be like this retail analo
 
 ## Preboarding rules FTW
 
-Everyone who receives data does preboarding in some form. Too often the process is inconsistent, unexplainable, error prone, and too costly. In data management, shortcuts generally end up being expensive. There are a few simple rules for doing preboarding well. [FlightPath](index.html) and the <a href='https://www.csvpath.org'>CsvPath Framework <i class="fa fa-external-link" aria-hidden="true" style='vertical-align: super; font-size:13px'></i></a>  can help you follow these guidelines and build a better process.
+Everyone who receives data does preboarding in some form. Too often the process is inconsistent, unexplainable, error prone, and too costly. In data management, shortcuts generally end up being expensive. There are a few simple rules for doing preboarding well. [FlightPath Data](index.html) and the <a href='https://www.csvpath.org'>CsvPath Framework <i class="fa fa-external-link" aria-hidden="true" style='vertical-align: super; font-size:13px'></i></a>  can help you follow these guidelines and build a better process.
 
 ## Do it the same way every time
 
@@ -52,7 +52,7 @@ The world of data processing is awash in tools that solve for a huge range of us
 
 These few high-level guidelines are key to success. The other most important thing is taking the time to build the right process for the business you are supporting. Throwing bodies or handy tools built for other purposes at a preboarding problem may get you through the day, but in the long run, in data, expediencies tend to cause problems.
 
-For many companies, receiving a partner's data starts as a small effort to bring a limited amount of regular transactional data into the enterprise. But in a growing company, the small challenge of high-quality data intake sooner or later becomes becomes a bigger, knottier, and sometimes existential problem. A purpose-built data preboarding infrastructure like CsvPath Framework, coupled with [FlightPath](index.html), can make the difference between lurching from data crisis to data crisis and sleeping well at night.
+For many companies, receiving a partner's data starts as a small effort to bring a limited amount of regular transactional data into the enterprise. But in a growing company, the small challenge of high-quality data intake sooner or later becomes becomes a bigger, knottier, and sometimes existential problem. A purpose-built data preboarding infrastructure like CsvPath Framework, coupled with [FlightPath Data](index.html), can make the difference between lurching from data crisis to data crisis and sleeping well at night.
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {

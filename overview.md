@@ -2,14 +2,14 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title: ✈️ FlightPath 50,000-foot Overview
+title: ✈️ FlightPath Data 50,000-foot Overview
 layout: home
 nav_order: 3
-description: "FlightPath and CsvPath Framework are a complete architecture for data file feed management and ingestion. "
+description: "FlightPath Data and CsvPath Framework are a complete architecture for data file feed management and ingestion. "
 permalink: /overview.html
 ---
 
-# ✈️  50,000-foot FlightPath Overview
+# ✈️  50,000-foot FlightPath Data Overview
 {: .no_toc }
 
 ### The Architecture For Data File Feed Ingestion and Management
@@ -34,7 +34,7 @@ FlightPath Data, FlightPath Server, and the CsvPath Framework together form a co
 
 ### Architecture Components
 {: .no_toc }
-FlightPath augments CsvPath Framework to create a complete low-code, high-function preboarding system for ingesting data file feeds. The architecture has two layers: core components and enabling integrations.
+FlightPath Data augments CsvPath Framework to create a complete low-code, high-function preboarding system for ingesting data file feeds. The architecture has two layers: core components and enabling integrations.
 
 #### CsvPath Framework
 {: .no_toc }
@@ -60,7 +60,7 @@ FlightPath augments CsvPath Framework to create a complete low-code, high-functi
 #### Enabling Integrations
 {: .no_toc }
 
-Preboarding is just one stop on data's journey from source to consumer. FlightPath and CsvPath Framework integrate with data file sources and destinations, observability platforms, and metadata-layer collaborators.
+Preboarding is just one stop on data's journey from source to consumer. FlightPath Data and CsvPath Framework integrate with data file sources and destinations, observability platforms, and metadata-layer collaborators.
 
 * Five supported MFT and data lake storage backends: AWS, Azure, GCP, SFTP, and file system
 * Metadata capture to any mainstream relational database
@@ -70,7 +70,7 @@ Preboarding is just one stop on data's journey from source to consumer. FlightPa
 ![](../assets/images/integrated-components.png)
 
 ## Goals
-FlightPath and CsvPath are on a mission to increase quality and lower the cost and risk of managing data file feeds. Every aspect of their design is based on meeting specific goals.
+FlightPath Data and CsvPath are on a mission to increase quality and lower the cost and risk of managing data file feeds. Every aspect of their design is based on meeting specific goals.
 
 ### Lower Manual Effort
 * Move manual data checking into automated CsvPath Validation Language rules and schemas
@@ -98,7 +98,7 @@ FlightPath and CsvPath are on a mission to increase quality and lower the cost a
 
 
 ## Principles
-FlightPath is built according to principles derived from observing what has worked in practice for companies that have robust data file feed handling. While every data file feed has unique aspects, knowing what works enables you to assess where to be flexible vs. where to hold the line for more correct approach.
+FlightPath Data is built according to principles derived from observing what has worked in practice for companies that have robust data file feed handling. While every data file feed has unique aspects, knowing what works enables you to assess where to be flexible vs. where to hold the line for more correct approach.
 
 ### Immutability
 Immutable data means never changing a data set in place, but rather creating a copy of the data when it is modified. The benefit of immutable data is:
@@ -115,7 +115,7 @@ Idempotent data processing means that processing runs have the exact same output
 
 #### Declarative processing
 {: .no_toc }
-In general, there are two types of data processing tools, those that are procedural and those that are declarative. A procedural process changes data through a set of logical commands such as `for every line in dataset increase line_count by 1`. Declarative processes instead simply state an outcome and allow the processing environment to act accordingly behind the scenes. SQL, a declarative language, would write the same logic as `select count(*) from dataset`. The benefit of declarative processing is simplicity and a lower chance for error. FlightPath encourages declarative processing using CsvPath Validation Language and CsvPath Reference Language.
+In general, there are two types of data processing tools, those that are procedural and those that are declarative. A procedural process changes data through a set of logical commands such as `for every line in dataset increase line_count by 1`. Declarative processes instead simply state an outcome and allow the processing environment to act accordingly behind the scenes. SQL, a declarative language, would write the same logic as `select count(*) from dataset`. The benefit of declarative processing is simplicity and a lower chance for error. FlightPath Data encourages declarative processing using CsvPath Validation Language and CsvPath Reference Language.
 
 #### Linear focus
 {: .no_toc }
@@ -126,7 +126,7 @@ Data preboarding is the leading edge of data ingestion. Its purpose is the criti
 {: .no_toc }
 Small projects with limited scope and infrequent changes are lower risk. The more frequent the changes, the smaller the scope should be.
 
-CsvPath Framework provides the consistency and tooling that allows you to run small projects in a distributed fashion efficiently and with centralized awareness and control. FlightPath gives you the ability to spin up a CsvPath Framework project and deploy it to production in minutes. FlightPath and the Framework namespace and version assets and data at every step so that projects can live complete disconnected or mix, match, and overlay each other without adding confusion and risk.
+CsvPath Framework provides the consistency and tooling that allows you to run small projects in a distributed fashion efficiently and with centralized awareness and control. FlightPath Data gives you the ability to spin up a CsvPath Framework project and deploy it to production in minutes. FlightPath Data and the Framework namespace and version assets and data at every step so that projects can live complete disconnected or mix, match, and overlay each other without adding confusion and risk.
 
 That separation plus consistency lets you scope projects down to a single data partner, or even individual data feeds per partner. You can support any number of backend storage systems, heterogeneous file types, or event-based integrations, while at the same time, capturing data to a single data lake, a single observability system, and/or using a single naming, metadata, and file location convention. Truly the best of both worlds.
 
