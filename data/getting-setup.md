@@ -1,7 +1,7 @@
 ---
 title: 🛠️ Getting Started
 layout: home
-nav_order: 1
+nav_order: 4
 parent: FlightPath Data
 description: "An easy step-by-step for setting up FlightPath."
 permalink: /data/getting-started.html
@@ -34,9 +34,13 @@ FlightPath Data is free and open. There is nothing to buy.
 
 <figure><img src="../assets/app_images/examples (2).png" alt=""><figcaption></figcaption></figure>
 
+When you first open FlightPath the app creates a `.flightpath` JSON configuration file in your home directory that points to your `FlightPath` projects folder, holds variables, and does a few other things. You can change the project folder's location in FlightPath's config panel. Next FlightPath creates a `Default` project. In the `Default` project, as in every new project, you will see an `examples` directory. You can delete the examples if you don't need them.&#x20;
+
 ## 3 - Import test data and begin preboarding
 
 <figure><img src="../assets/app_images/copy-data-inn.png" alt="" width="230"><figcaption></figcaption></figure>
+
+Use the `Copy data in` button on the welcome screen to open your operating system's files browser. Remember that if you installed from the MacOS or Windows store you are working in an OS sandbox. The OS sandboxes change how files are stored and who can see them.
 
 ## 4 - Dig deeper into CsvPath Framework
 

@@ -1,10 +1,10 @@
 ---
-title: ✨ Project Configuration
+title: ✨ Configuration
 layout: home
 nav_order: 5
-parent: ✨ FlightPath Data Features
+parent: ✨ Features
 description: "FlightPath Data makes it easy to customize your project capabilities at any point. And using the Config panel you can also configure FlightPath Server projects."
-permalink: /data/config.html
+permalink: /data/features/config.html
 ---
 
 # ✨ Configuration and Integration
@@ -17,11 +17,11 @@ The available project configuration options depend on your context. If you use C
 
 Configuring a local FlightPath Data project or FlightPath Server projects happens in the Config panel. Open it by clicking the `Open config` button at the bottom left.
 
-<figure><img src="../assets/app_images/open-config.png" alt="" width="450"><figcaption></figcaption></figure>
+<figure><img src="/assets/app_images/open-config.png" alt="" width="450"><figcaption></figcaption></figure>
 
 Your first view of the config panel tells you which config file you will be editing. It will always be the `config.ini` of the project that is open. Below this the help and feedback window will open to give you help each config panel tab.
 
-<figure><img src="../assets/app_images/config-panel.png" alt="" width="850"><figcaption></figcaption></figure>
+<figure><img src="/assets/app_images/config-panel.png" alt="" width="850"><figcaption></figcaption></figure>
 
 The most important config tabs are:
 * `env` - Sets up your environment variables, if needed, to help you work with tools and infrastructure
