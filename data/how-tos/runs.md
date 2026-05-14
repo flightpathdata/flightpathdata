@@ -1,7 +1,7 @@
 ---
 title: 🎨 Runs
 layout: home
-nav_order: 8
+nav_order: 4
 description: "Running jobs in FlightPath Data"
 parent: 🎨 How-tos
 permalink: /data/how-tos/runs.html

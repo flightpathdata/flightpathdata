@@ -1,5 +1,5 @@
 ---
-title: 🎨 Errors in the last run
+title: 🎨 Errors In the Last Run
 parent: 🎨 Runs
 description: "How to find the errors found in the last run."
 layout: home

@@ -1,7 +1,7 @@
 ---
 title: 🎨 Find
 layout: home
-nav_order: 8
+nav_order: 7
 description: "Using FlightPath to create references and find data."
 parent: 🎨 How-tos
 permalink: /data/how-tos/find.html

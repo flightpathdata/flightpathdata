@@ -1,19 +1,19 @@
 ---
-title: 🎨 Data
+title: 🎨 Config
 layout: home
-nav_order: 3
-description: "Using FlightPath to wrangle data"
+nav_order: 9
+description: "Setting-up Config"
 parent: 🎨 How-tos
-permalink: /data/how-tos/data.html
+permalink: /data/how-tos/config.html
 ---
 
-# 🎨 FlightPath Data How-tos
+# 🎨 FlightPath Config How-tos
 
 
 {: .new }
 **Learn about CsvPath Framework:** Find lots more information and how-tos about CsvPath Framework automating data preboarding at [https://www.csvpath.org](https://www.csvpath.org/).
 
-This section of the site has a few simple how-tos to get you started. They are focused on FlightPath, not so much CsvPath. For more help getting started with CsvPath, check out [www.csvpath.org](https://www.csvpath.org)'s how-tos.
+This section of the site provides examples of how to setup project features using the config forms.
 
 
 <script>

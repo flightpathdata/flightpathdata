@@ -1,7 +1,7 @@
 ---
 title: 🎨 Server
 layout: home
-nav_order: 8
+nav_order: 28
 description: "Using FlightPath Server from FlightPath Data how-tos."
 parent: 🎨 How-tos
 permalink: /data/how-tos/server.html

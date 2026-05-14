@@ -1,7 +1,7 @@
 ---
 title: 🎨 Groups
 layout: home
-nav_order: 8
+nav_order: 6
 description: "Using named-paths groups"
 parent: 🎨 How-tos
 permalink: /data/how-tos/groups.html

@@ -1,7 +1,7 @@
 ---
 title: 🎨 Files
 layout: home
-nav_order: 8
+nav_order: 1
 description: "How-tos for working with files"
 parent: 🎨 How-tos
 permalink: /data/how-tos/files.html

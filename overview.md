@@ -35,9 +35,9 @@ FlightPath serves the three teams who share the data-arrival problem — and giv
 
 **BizOps teams** get asynchronous agentic workflows, activation-triggered runs, and webhook notifications so that routine data arrival becomes a hands-off, observable process rather than a manual one.
 
-**IT and DevOps** get FlightPath Server — a no-code, JSON API-driven integration hub connecting FlightPath Data to managed file transfer systems, data lakes, and cloud backends (AWS, Azure, GCP, SFTP) — along with config variable interpolation, job control, and integrations with OpenTelemetry, OpenLineage, and other DataOps platforms.
+**IT and DevOps** get FlightPath Server — a no-code, JSON API-driven integration hub connecting FlightPath Data to managed file transfer systems, data lakes, and cloud backends (AWS, Azure, GCP, SFTP) — along with isolated project environments, job control, and integrations with OpenTelemetry, OpenLineage, and other DataOps platforms.
 
-Together, they get a consistent, transparent operational environment that makes edge data governance look less like a risky luxury and more like low-hanging fruit.
+The result is a consistent, transparent operational environment that makes edge data governance look less like a risky luxury and more like low-hanging fruit.
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {

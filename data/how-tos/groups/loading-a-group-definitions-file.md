@@ -4,7 +4,7 @@ parent: 🎨 Groups
 layout: home
 nav_order: 4
 description: "How to create a named-paths group from a group definition file."
-permalink: /data/howto/groups/load-group-definition-file.html
+permalink: /data/how-tos/groups/load-group-definition-file.html
 ---
 
 # How To Create a Group From a JSON Definition File

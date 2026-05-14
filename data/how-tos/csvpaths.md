@@ -1,20 +1,19 @@
 ---
-title: 🎨 Data
+title: 🎨 Csvpaths
 layout: home
-nav_order: 3
-description: "Using FlightPath to wrangle data"
+nav_order: 5
+description: "Using FlightPath to create csvpath validations."
 parent: 🎨 How-tos
-permalink: /data/how-tos/data.html
+permalink: /data/how-tos/csvpaths.html
 ---
 
-# 🎨 FlightPath Data How-tos
+# 🎨 Csvpaths How-tos
 
 
 {: .new }
 **Learn about CsvPath Framework:** Find lots more information and how-tos about CsvPath Framework automating data preboarding at [https://www.csvpath.org](https://www.csvpath.org/).
 
-This section of the site has a few simple how-tos to get you started. They are focused on FlightPath, not so much CsvPath. For more help getting started with CsvPath, check out [www.csvpath.org](https://www.csvpath.org)'s how-tos.
-
+This section of the site contains how-tos for creating csvpath validations that can be used in one-off runs and named-paths groups.
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {

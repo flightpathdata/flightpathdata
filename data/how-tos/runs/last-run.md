@@ -1,6 +1,6 @@
 ---
 parent: 🎨 Runs
-title: 🎨 Script for last run
+title: 🎨 Script For Last Run
 description: How to find the script(s) used in the last run.
 layout: home
 nav_order: 8
