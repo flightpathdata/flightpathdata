@@ -13,7 +13,7 @@ permalink: /data/features/config.html
 
 A new FlightPath Data project is primarily a config file. It can be that simple. However, there is a ton of functionality behind the sensible defaults that you can customize for specific situations.
 
-The available project configuration options depend on your context. If you use CsvPath Framework by itself you have full access. FlightPath gives a slightly tuned set of configuration options in order to support its multi-project environment. And as you might guess, FlightPath Server has the most restrictive set of configuration options, in order to enable multi-project, multi-user operations. Still, all three contexts offer a great deal of flexibility.
+The available project configuration options depend on your context. If you use CsvPath Framework by itself you have full access. FlightPath gives a slightly tuned set of configuration options in order to support its multi-project environment. And as you might guess, FlightPath Server has the most restrictive set of configuration options, in order to enable multi-tenant operations. All three contexts offer a great deal of flexibility.
 
 Configuring a local FlightPath Data project or FlightPath Server projects happens in the Config panel. Open it by clicking the `Open config` button at the bottom left.
 
@@ -28,6 +28,7 @@ The most important config tabs are:
 * `errors` - Determines how CsvPath Framework responds to validation errors
 * `inputs` - Determines where data files are staged and validation and upgrading scripts are loaded
 * `integrations` - Enables you to set up configuration for SFTP, OTLP, and other DataOps infrastructure
+* `llm` - Configures the AI integration and assets management parameters
 * `results` - Sets the location of the results archive
 * `server` - This is where you create and manage FlightPath Server projects
 

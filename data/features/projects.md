@@ -20,7 +20,7 @@ Creating a new project is as simple as selecting `Create New Project` in the dro
 
 
 
-Each time you create a project in FlightPath, FlightPath creates a new CsvPath Framework project, with a new config file, archive, logs, and other assets. Every project is completely separate, with its own choice of storage backends and integrations.&#x20;
+Each time you create a project in FlightPath, FlightPath creates a new CsvPath Framework workspace, with a new config file, archive, logs, and other assets. Every workspace is completely separate, with its own choice of storage backends and integrations.&#x20;
 
 <figure><img src="/assets/app_images/new_project_dialog.png" alt="" width="525"><figcaption></figcaption></figure>
 

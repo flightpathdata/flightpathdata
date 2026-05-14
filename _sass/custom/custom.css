@@ -30,7 +30,7 @@
 div#main-header.main-header,
 div.site-header,
 nav.aux-nav {
-    height: 100px;
+   /* height: 100px; */
     max-height:none;
 }
 
@@ -59,13 +59,24 @@ nav.aux-nav {
 .aux-nav .aux-nav-list-item {
     display: inline-block;
     height: 100%;
-    padding: 0 20px 0 20px;
+    padding: 0 5px 0 5px;
+    /*padding: 0 20px 0 20px;*/
     margin: 0;
     letter-spacing: 1px;
 }
 
 .aux-nav-list-item a.site-button {
-    color: rgb(47, 56, 69);
+    /*
+     * exp
+     */
+    font-family: "DM Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color:#3a4a57;
+    /*
+     * end!
+     */
+    /*color: rgb(47, 56, 69);*/
 }
 
 .aux-nav-list-item a.site-button:hover {
@@ -85,6 +96,7 @@ nav.aux-nav {
     left:0px;
     color:#777;
     font-style:italic;
+    font-size: 1.5rem !important;
 }
 
 img.main-image {

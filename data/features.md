@@ -10,7 +10,7 @@ permalink: /data/features.html
 # ✨ FlightPath Data Features
 FlightPath Data is organized around the full lifecycle of data preboarding — from the moment a file arrives to the moment known-good data is published downstream. Its features serve three teams: developers building validation workflows, BizOps teams managing day-to-day data operations, and IT teams running the infrastructure.
 
-{: .note}
+{: .new}
 New in 1.1.88 — AI-assisted authoring, agentic workflows, Parquet output, JSON Query and SQL support, config variable interpolation, and more. [See what's new →](data/new.html)
 
 ## Project Management

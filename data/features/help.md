@@ -9,7 +9,7 @@ permalink: /data/features/help.html
 
 # ✨ Help and Documentation Features
 
-## In-context Help
+## Contextual Help
 
 Every major feature in FlightPath has in-context help. Wherever you see the question mark icon you can click it to open the `Help and feedback` tray at the bottom of the app. &#x20;
 
@@ -21,6 +21,11 @@ CsvPath Language has 200 functions to help you craft the right validation rules 
 
 <figure><img src="/assets/app_images/language_help_tab.png" alt=""><figcaption></figcaption></figure>
 
+## Ask Questions
+
+You can ask questions or for help creating validations. FlightPath presents an AI-driven Q&A interface where you can get help and feedback for all aspects of preboarding automation. When you provide your csvpath or data or both for context answers are even more focused.
+
+<figure><img src="/assets/app_images/answering-questions.png" alt=""><figcaption></figcaption></figure>
 
 ## Rich examples library
 
@@ -28,8 +33,7 @@ FlightPath Data generates an examples library in each new project so you have ru
 
 <figure><img src="/assets/app_images/examples-schemas.png" alt=""><figcaption></figcaption></figure>
 
-
-## Plain English explanations of runs
+## Plain-English explanations of runs
 
 FlightPath Data creates a summary of how the project configuration impacts the results of a test run. With FlightPath Data you never have to wonder what configurations contributed to what you see.
 

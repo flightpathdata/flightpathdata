@@ -11,7 +11,7 @@ permalink: /data/features/validation.html
 
 
 
-### One-off CsvPath Runs
+## One-off Runs
 
 Each time you iterate on a validation or data upgrading script you will need to run it to check your results. Running a CsvPath Language file is easy. Just right click and select `Run`. Alternatively hit `ctrl-r`.&#x20;
 
@@ -27,6 +27,8 @@ Every one-off run opens the Help and feedback tray with several results tabs:&#x
 
 <figure><img src="/assets/app_images/one_off_run_feedback.png" alt="" width="600"><figcaption></figcaption></figure>
 
+## Plain-English Explanations
+
 `What Am I Seeing?` tab explains all the configuration options for the run and how they impacted the results. As well as helping you interpret your results, this is a great place to learn about CsvPath Framework.
 
 <figure><img src="/assets/app_images/what_am_i_seeing.png" alt="" width="650"><figcaption></figcaption></figure>
@@ -35,8 +37,6 @@ Every one-off run opens the Help and feedback tray with several results tabs:&#x
 ## Load Named-paths Groups
 
 Validation and upgrading happens by applying one or more csvpath statements that are grouped together as a unit.
-
-### Loading Options
 
 When you're ready to load your named-paths into CsvPath Framework you just right-click on a file or folder to open the load dialog. There are three options.
 

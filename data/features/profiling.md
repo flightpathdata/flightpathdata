@@ -42,6 +42,11 @@ After a test run, right-click on the `Matches` tab to save the results as a samp
 
 <figure><img src="/assets/app_images/save-run-as.png" alt="" width="750"><figcaption></figcaption></figure>
 
+## Generate representative test data
+
+Save time and improve testing by creating focused test sets. FlightPath can generate test data based on validation scripts. Add your own instructions to tailor coverage, co-occurrence, and error states.
+
+<figure><img src="/assets/app_images/generate-data-request-instructions.png" alt="" width="390"><figcaption></figcaption></figure>
 
 
 <script>

@@ -45,6 +45,12 @@ Before you can load preboarding steps into CsvPath Framework you have to write t
 
 <figure><img src="/assets/app_images/csvpath_editor.png" alt="" width="663"><figcaption></figcaption></figure>
 
+## Generate Validations From Data
+
+FlightPath can intuit your business rules from looking at a data sample. You can add specific instructions to provide as much detail on requirements as needed. Complex data contracts can be generated into documented sets of test-friendly rules that can be run as a group, skipped as needed, or reused.
+
+<figure><img src="/assets/app_images/create-csvpath-based-on-data.png" alt="" width="463"><figcaption></figcaption></figure>
+
 ## Markdown Files
 
 DataOps project organization is not enough. For smooth operations, you also need to have documentation. FlightPath lets you add markdown files for documentation, notes, and instructions.
