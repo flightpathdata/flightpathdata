@@ -1,13 +1,13 @@
 ---
-title: 🔰 LLM Form
+title:   LLM Form
 layout: home
 nav_order: 2
 description: "About FlightPath Data Config's AI LLM Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/llm.html
 ---
 
-# 🔰 The LLM Form
+#   The LLM Form
 {: .no_toc }
 
 

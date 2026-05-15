@@ -1,13 +1,13 @@
 ---
-title: ✨ File Staging
+title:  File Staging
 layout: home
 nav_order: 2
-parent: ✨ Features
+parent:  Features
 description: "FlightPath Data stages CSV, JSONL, and Excel data in an immutable, versioned staging area, registered under a durable identity. "
 permalink: /data/features/staging.html
 ---
 
-# ✨ Data Staging Features
+#  Data Staging Features
 
 FlightPath gives you tools for staging inbound CSV, JSONL, and Excel files. Your raw files are registered under a name that indicates a type of data, a source, a business process, or any concept you use to organize your data. This is a named-file.
 

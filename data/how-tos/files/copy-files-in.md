@@ -1,13 +1,13 @@
 ---
-title: 🎨 Adding Files To a Project
-parent: 🎨 Files
+title:   Adding Files To a Project
+parent:   Files
 layout: home
 nav_order: 2
 description: "How to files to a FlightPath project."
 permalink: /data/howto/files/add-files.html
 ---
 
-# How To Add Files To a Project
+#   How To Add Files To a Project
 
 Your projects will use existing files, as well as creating new ones. Adding files is easy. You use your computer's file manager to copy files in to the project directory. (Your file manager is Explorer for Windows; Finder for MacOS)
 

@@ -1,13 +1,13 @@
 ---
-title: 🎨 Data Sampling
-parent: 🎨 Data
+title:   Data Sampling
+parent:   Data
 layout: home
 nav_order: 10
 description: "Creating data samples from existing data"
 permalink: /data/howto/data/data-sampling.html
 ---
 
-# How To Create Sample Data Sets
+#   How To Create Sample Data Sets
 
 {: .new }
 **Learn about CsvPath Framework:** Find lots more information and how-tos about CsvPath Framework automating data preboarding at [https://www.csvpath.org](https://www.csvpath.org/).

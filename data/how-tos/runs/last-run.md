@@ -1,13 +1,13 @@
 ---
-parent: 🎨 Runs
-title: 🎨 Script For Last Run
+parent:   Runs
+title:   Script For Last Run
 description: How to find the script(s) used in the last run.
 layout: home
 nav_order: 8
 permalink: /data/howto/runs/last-run.html
 ---
 
-# How To Find the Script From the Last Run
+#   How To Find the Script From the Last Run
 
 ## What you need
 

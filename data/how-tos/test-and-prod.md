@@ -1,17 +1,18 @@
 ---
-title: 🎨 Project Dev and Test
-parent: 🎨 How-tos
+title:   Project Dev and Test
+parent:  How-tos
 layout: home
 nav_order: 20
 description: "How to progress projects through development stages"
 permalink: /data/howto/server/project-progression.html
 ---
 
+
+
+#  How To Setup Create, Test, and Deploy
+
 {: .note }
 **More CsvPath Framework suggestions:** Find lots more ideas and techniques for developing and automating data preboarding at [https://www.csvpath.org](https://www.csvpath.org/).
-
-
-# How To Setup Create, Test, and Deploy
 
 The development lifecycle for csvpath validation and upgrading usually has multiple steps and involves multiple backends.
 

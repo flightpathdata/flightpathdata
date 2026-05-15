@@ -1,13 +1,13 @@
 ---
-title: 🔰 Server Form
+title:   Server Form
 layout: home
 nav_order: 14
 description: "About FlightPath Data Config's Server Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/server.html
 ---
 
-# 🔰 The Server Form
+#   The Server Form
 {: .no_toc }
 
 

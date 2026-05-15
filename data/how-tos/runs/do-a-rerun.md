@@ -1,13 +1,13 @@
 ---
-title: 🎨 Do a Re-run
-parent: 🎨 Runs
+title:   Do a Re-run
+parent:   Runs
 layout: home
 nav_order: 4
 description: "How to do a rerun"
 permalink: /data/howto/groups/do-a-rerun.html
 ---
 
-# How To Start a Re-run
+#   How To Start a Re-run
 
 Doing a re-run in FlightPath Data is easy and flexible. Since your assets are all immutable, rerunning has no risk of overwrites or confusion. In addition, you can start your re-run at any point in a multi-csvpath group. For example, you could start a five-csvpath group on the third csvpath, using the same source data file or a different one.
 

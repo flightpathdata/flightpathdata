@@ -1,13 +1,13 @@
 ---
-title: 🎨 Load a Group Definition file
-parent: 🎨 Groups
+title:   Load a Group Definition file
+parent:   Groups
 layout: home
 nav_order: 4
 description: "How to create a named-paths group from a group definition file."
 permalink: /data/how-tos/groups/load-group-definition-file.html
 ---
 
-# How To Create a Group From a JSON Definition File
+#   How To Create a Group From a JSON Definition File
 
 FlightPath manages csvpath statements in files and groups. Multiple csvpath statements can live in a file. All of the statements in the file will be a part of the same group. A named-paths group can be created from a JSON definition that points to multiple files. The definition file also holds other configuration items, such as templates and webhooks.
 

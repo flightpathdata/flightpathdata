@@ -1,13 +1,13 @@
 ---
-title: 🎨 Edit JSONL as JSON
-parent: 🎨 Editors
+title:   Edit JSONL as JSON
+parent:   Editors
 layout: home
 nav_order: 4
 description: "How to edit a JSONL file as JSON."
 permalink: /data/howto/editors/edit-as-json.html
 ---
 
-# How To Edit a JSONL File As JSON
+#   How To Edit a JSONL File As JSON
 
 JSONL files are data, similar to CSV or XLSX. However, they have substantial structural differences from CSV. Among those are the different way headers are handled. JSONL labels every item of data on every line with the "header" name of that item, and these headers are not ordered. There are several other differences, some subtle.
 

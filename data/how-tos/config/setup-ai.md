@@ -1,13 +1,13 @@
 ---
-title: 🎨 Setup an AI API
-parent: 🎨 Config
+title:   Setup an AI API
+parent:   Config
 layout: home
 nav_order: 4
 description: "How to set up an AI API"
 permalink: /data/how-tos/config/setup-ai.html
 ---
 
-# How To Setup an AI API
+#   How To Setup an AI API
 
 
 

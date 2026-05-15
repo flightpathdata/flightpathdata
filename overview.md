@@ -2,16 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title: ✈️  What FlightPath Solves
+title:   What FlightPath Solves
 layout: home
 parent: FlightPath Data
 nav_order: 1
 description: "Receiving data files from partners is messy. FlightPath Data raises productivity and lowers risk."
 permalink: /overview.html
 ---
-
-# ✈️  What FlightPath Solves
-
+#  What FlightPath Solves 2
+{: .icon-solves}
 
 ## AI-assisted Edge Data Governance
 

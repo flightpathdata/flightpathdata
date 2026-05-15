@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-title: 🚀 How FlightPath Works
+title:  How FlightPath Works
 layout: home
 parent: FlightPath Data
 nav_order: 2
@@ -10,7 +10,7 @@ description: "FlightPath Data and CsvPath Framework are a complete architecture 
 permalink: /architecture.html
 ---
 
-# 🚀 The Architecture For Receiving Data Files
+#   The Architecture For Receiving Data Files
 
 
 

@@ -15,7 +15,8 @@ back_to_top_text: "Back to top"
 
 footer_content: 'Copyright &copy; 2025-2026 Atesta Analytics; CsvPath committers; D. Kershaw.'
 
-logo: "assets/logos/logo_wordmark_sm.png"
+#logo: "assets/logos/logo_wordmark_sm.png"
+logo: "/assets/logos/flightpath-data-full-wordmark-and-icon-new.svg.png"
 #favicon_ico: "assets/images/favicon.ico"
 
 aux_links:

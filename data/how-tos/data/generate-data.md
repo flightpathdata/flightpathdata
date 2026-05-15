@@ -1,13 +1,13 @@
 ---
-title: 🎨 Generate Data
-parent: 🎨 Data
+title:   Generate Data
+parent:   Data
 layout: home
 nav_order: 4
 description: "How to generate test data based on a csvpath statement"
 permalink: /data/how-tos/data/generate-data.html
 ---
 
-# How To Generate Test Data
+#   How To Generate Test Data
 
 Good csvpath development practice is to create tests for each statement. Creating even small test data sets can be time consuming. FlightPath can help create representative data quickly.
 

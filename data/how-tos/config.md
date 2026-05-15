@@ -1,13 +1,13 @@
 ---
-title: 🎨 Config
+title:   Config
 layout: home
 nav_order: 9
 description: "Setting-up Config"
-parent: 🎨 How-tos
+parent:  How-tos
 permalink: /data/how-tos/config.html
 ---
 
-# 🎨 FlightPath Config How-tos
+#   FlightPath Config How-tos
 
 
 {: .new }

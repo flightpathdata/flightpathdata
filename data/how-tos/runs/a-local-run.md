@@ -1,13 +1,13 @@
 ---
-title: 🎨 A Local Test Run
-parent: 🎨 Runs
+title:   A Local Test Run
+parent:   Runs
 layout: home
 nav_order: 4
 description: "Doing a local dev run."
 permalink: /data/howto/runs/dev-run.html
 ---
 
-# How To Do a Local Dev Run
+#   How To Do a Local Dev Run
 
 We refer to a run that doesn't involve a named-paths group or a named-file as a "local run". Local runs are simply pointing a single csvpath at a data file in the project directory and clicking ctrl-r or right-clicking and selecting `Run`. All the run outputs are generated, but the run specifically tests just the one csvpath.
 

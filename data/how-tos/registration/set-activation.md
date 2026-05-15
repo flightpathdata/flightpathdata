@@ -1,15 +1,15 @@
 ---
-title: 🎨 Set an Arrival Activation
-parent: 🎨 Registration
+title:   Set an Arrival Activation
+parent:   Registration
 layout: home
 nav_order: 4
 description: "How to trigger a run when data arrives."
 permalink: /data/how-tos/registration/set-arrival-activation.html
 ---
+#   How To Trigger a Run When a File Arrives
+
 {: .new }
 **Learn about CsvPath Framework:** Find lots more information and how-tos about CsvPath Framework automating data preboarding at [https://www.csvpath.org](https://www.csvpath.org/).
-
-# How To Trigger a Run When a File Arrives
 
 FlightPath enables you to easily set up an arrival activation on a named-file. An arrival activation is a trigger that runs its named-file against a named-paths group whenever new data arrives.
 

@@ -1,13 +1,13 @@
 ---
-title: 🎨 Stage a Folder Of Data
-parent: 🎨 Registration
+title:   Stage a Folder Of Data
+parent:   Registration
 layout: home
 nav_order: 4
 description: "How to stage all the data files in a directory."
 permalink: /data/howto/registration/stage-all-files-in-dir.html
 ---
 
-# How To Stage All the Data Files In a Directory
+#   How To Stage All the Data Files In a Directory
 
 FlightPath allows you to manually stage data file-by-file or as a batch based on a folder. When you stage a folder, all the data files it holds are registered with named-files. Any files that don't map to a named-file will create a new one.
 

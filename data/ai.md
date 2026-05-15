@@ -1,5 +1,5 @@
 ---
-title: 🪄 AI Accelerated
+title:  AI Accelerated
 layout: home
 nav_order: 3
 parent: FlightPath Data
@@ -8,7 +8,7 @@ permalink: /data/ai/ai.html
 ---
 
 
-# 🪄 AI Accelerated Data Preboarding In FlightPath
+#   AI Accelerated Data Preboarding In FlightPath
 
 ## Agentic workflows and AI-assisted authoring for the teams who own data arrival.
 

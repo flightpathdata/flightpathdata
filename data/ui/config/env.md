@@ -1,13 +1,13 @@
 ---
-title: 🔰 Env Form
+title:   Env Form
 layout: home
 nav_order: 2
 description: "Walks-through FlightPath Data's Env form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/env.html
 ---
 
-# 🔰 The FlightPath Data UI: The Env Form
+#   The FlightPath Data UI: The Env Form
 {: .no_toc }
 
 

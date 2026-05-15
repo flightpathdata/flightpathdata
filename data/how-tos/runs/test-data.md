@@ -1,13 +1,13 @@
 ---
-title: 🎨 Linking Test Data
-parent: 🎨 Runs
+title:   Linking Test Data
+parent:   Runs
 layout: home
 nav_order: 7
 description: "How to set a default test data directive on a csvpath statement"
 permalink: /data/howto/runs/test-data-directive.html
 ---
 
-# How To Assign Test Data To a Csvpath Statement
+#   How To Assign Test Data To a Csvpath Statement
 
 {: .new }
 **Learn about CsvPath Framework:** Find lots more information and how-tos about CsvPath Framework automating data preboarding at [https://www.csvpath.org](https://www.csvpath.org/).

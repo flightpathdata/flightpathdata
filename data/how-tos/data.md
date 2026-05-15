@@ -1,13 +1,13 @@
 ---
-title: 🎨 Data
+title:   Data
 layout: home
 nav_order: 3
 description: "Using FlightPath to wrangle data"
-parent: 🎨 How-tos
+parent:  How-tos
 permalink: /data/how-tos/data.html
 ---
 
-# 🎨 FlightPath Data How-tos
+#  FlightPath Data How-tos
 
 
 {: .new }

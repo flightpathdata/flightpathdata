@@ -1,13 +1,13 @@
 ---
-title: 🔰 Results Form
+title:   Results Form
 layout: home
 nav_order: 2
 description: "About FlightPath Data Config's Results Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/results.html
 ---
 
-# 🔰 The Results Form
+#   The Results Form
 {: .no_toc }
 
 

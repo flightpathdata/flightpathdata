@@ -1,5 +1,5 @@
 ---
-title: ✨ Features
+title:  Features
 layout: home
 nav_order: 6
 parent: FlightPath Data
@@ -7,7 +7,7 @@ description: "FlightPath Data features enable you to manage external tabular dat
 permalink: /data/features.html
 ---
 
-# ✨ FlightPath Data Features
+#   FlightPath Data Features
 FlightPath Data is organized around the full lifecycle of data preboarding — from the moment a file arrives to the moment known-good data is published downstream. Its features serve three teams: developers building validation workflows, BizOps teams managing day-to-day data operations, and IT teams running the infrastructure.
 
 {: .new}

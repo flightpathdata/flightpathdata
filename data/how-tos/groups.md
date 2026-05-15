@@ -1,13 +1,13 @@
 ---
-title: 🎨 Groups
+title:   Groups
 layout: home
 nav_order: 6
 description: "Using named-paths groups"
-parent: 🎨 How-tos
+parent:  How-tos
 permalink: /data/how-tos/groups.html
 ---
 
-# 🎨 FlightPath Groups How-tos
+#  FlightPath Groups How-tos
 
 
 {: .new }

@@ -1,13 +1,13 @@
 ---
-title: 🔰 Integrations Form
+title:   Integrations Form
 layout: home
 nav_order: 2
 description: "About FlightPath Data Config's Integrations Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/integrations.html
 ---
 
-# 🔰 The Integration Form
+#   The Integration Form
 {: .no_toc }
 
 

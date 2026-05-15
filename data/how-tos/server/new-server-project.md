@@ -1,13 +1,13 @@
 ---
-title: 🎨 Creating a New FlightPath Server Project
-parent: 🎨 Server
+title:   Creating a New FlightPath Server Project
+parent:   Server
 layout: home
 nav_order: 20
 description: "How to create a new FlightPath Server project."
 permalink: /data/howto/server/new-server-project.html
 ---
 
-# How To Create a New FlightPath Server Project
+#   How To Create a New FlightPath Server Project
 
 {: .new }
 **Learn about CsvPath Framework:** Find lots more information and how-tos about CsvPath Framework automating data preboarding at [https://www.csvpath.org](https://www.csvpath.org/).

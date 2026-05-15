@@ -1,13 +1,13 @@
 ---
-title: ✨ Validation and Upgrading
+title:  Validation and Upgrading
 layout: home
 nav_order: 4
-parent: ✨ Features
+parent:  Features
 description: "FlightPath Data is a powerful environment for building CSV, JSONL, and Excel validation and data upgrading scripts. "
 permalink: /data/features/validation.html
 ---
 
-# ✨ Features
+#  Features
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: ✨ Profiling and Sampling
+title:  Profiling and Sampling
 layout: home
 nav_order: 2
-parent: ✨ Features
+parent:  Features
 description: "FlightPath Data helps you know your data, capture cuts for specific tasks, and iterate development quickly using focused datasets"
 permalink: /data/features/profiling.html
 ---
 
-# ✨ Data Profiling and Sampling
+#  Data Profiling and Sampling
 
 ## Profiling report
 

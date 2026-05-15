@@ -1,5 +1,5 @@
 ---
-title: 🛠️ Getting Started
+title:  Getting Started
 layout: home
 nav_order: 4
 parent: FlightPath Data
@@ -8,7 +8,7 @@ permalink: /data/getting-started.html
 ---
 
 
-# 🛠️ Getting Started
+#   Getting Started
 
 ## 1 - Install FlightPath for MacOS or Windows
 

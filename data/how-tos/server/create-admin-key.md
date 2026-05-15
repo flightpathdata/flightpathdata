@@ -1,13 +1,13 @@
 ---
-title: 🎨 Creating a New FlightPath Server Admin Key
-parent: 🎨 Server
+title:   Creating an Admin Key
+parent:   Server
 layout: home
 nav_order: 21
 description: "How to create a new FlightPath Server's admin key."
 permalink: /data/howto/server/new-server-key.html
 ---
 
-# How To Create an Admin Key For a Rew FlightPath Server
+#   How To Create an Admin Key
 
 FlightPath Server controls project access using API keys. API keys limit access to projects, but are not tied to users. A key is a UUID. It is provided to the creator one time; after that, FlightPath does not retain the key. See the note below regarding the optional key index setting. Keys map to a projects directory. The directory name is a SHA256 hash of the API key and other information. All server projects live within one API key's projects directory.
 

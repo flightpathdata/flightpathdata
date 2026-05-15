@@ -1,13 +1,13 @@
 ---
-title: 🔰 Errors Form
+title:   Errors Form
 layout: home
 nav_order: 2
 description: "About FlightPath Data Config's Errors Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/errors.html
 ---
 
-# 🔰 The Errors Form
+#   The Errors Form
 {: .no_toc }
 
 ## Validation errors handling

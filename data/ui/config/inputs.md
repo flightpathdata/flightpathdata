@@ -1,13 +1,13 @@
 ---
-title: 🔰 Inputs Form
+title:   Inputs Form
 layout: home
 nav_order: 2
 description: "About FlightPath Data Config's Inputs Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/inputs.html
 ---
 
-# 🔰 The Inputs Form
+#   The Inputs Form
 {: .no_toc }
 
 

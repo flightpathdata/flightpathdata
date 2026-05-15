@@ -1,13 +1,13 @@
 ---
-title: 🎨 Explanation Of Results
-parent: 🎨 Runs
+title:   Explanation Of Results
+parent:   Runs
 layout: home
 nav_order: 4
 description: "Getting a plain English explanation of run results"
 permalink: /data/howto/runs/explain-run.html
 ---
 
-# How To Find an Explanation For Results
+#   How To Find an Explanation For Results
 
 As you are developing a validation you may have questions about the results you are getting. There are multiple ways to get a plain English answer to why the results are what you see.
 

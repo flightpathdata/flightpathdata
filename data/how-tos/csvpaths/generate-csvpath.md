@@ -1,13 +1,13 @@
 ---
-title: 🎨 Generate Csvpath
-parent: 🎨 Csvpaths
+title:   Generate Csvpath
+parent:   Csvpaths
 layout: home
 nav_order: 4
 description: "How to generate one or more validation csvpaths based on example data and instructions"
 permalink: /data/how-tos/data/generate-csvpaths.html
 ---
 
-# How To Generate Csvpaths
+#   How To Generate Csvpaths
 
 FlightPath Data can generate csvpath validation and/or upgrading statements based on sample data and any instructions. It is possible to provide a business context and/or business rules and receive back a working set of one or more statements.
 

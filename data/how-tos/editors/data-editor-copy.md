@@ -1,13 +1,13 @@
 ---
-title: 🎨 Copy In Data View
-parent: 🎨 Editors
+title:   Copy In Data View
+parent:   Editors
 layout: home
 nav_order: 4
 description: "Options for copying data in the Data View."
 permalink: /data/howto/editors/copy-in-data-view.html
 ---
 
-# How To Use Copy Options In Data View
+#   How To Use Copy Options In Data View
 
 There are several useful options for copying data in the Data View. These include:
 * **Irregular copy**: Selecting various non-contagious cells to copy as a group

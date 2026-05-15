@@ -1,13 +1,13 @@
 ---
-title: 🔰 Cache Form
+title:   Cache Form
 layout: home
 nav_order: 2
 description: "Config form for caching"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/cache.html
 ---
 
-# 🔰 The Cache Form
+#   The Cache Form
 {: .no_toc }
 
 

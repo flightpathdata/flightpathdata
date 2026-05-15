@@ -1,13 +1,13 @@
 ---
-title: 🔰 Config Form
+title:   Config Form
 layout: home
 nav_order: 2
 description: "About FlightPath Data Config's Config Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/config.html
 ---
 
-# 🔰 The Config Form
+#   The Config Form
 {: .no_toc }
 
 

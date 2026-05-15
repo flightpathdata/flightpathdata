@@ -1,13 +1,13 @@
 ---
-title: 🎨 Data Profiling
-parent: 🎨 Data
+title:   Data Profiling
+parent:   Data
 layout: home
 nav_order: 9
 description: "Generating a data profiling report"
 permalink: /data/howto/data/get-file-info.html
 ---
 
-# How To Generate a Data Profile Report
+#   How To Generate a Data Profile Report
 
 {: .new }
 **Learn about CsvPath Framework:** Find lots more information and how-tos about CsvPath Framework automating data preboarding at [https://www.csvpath.org](https://www.csvpath.org/).

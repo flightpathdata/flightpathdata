@@ -1,13 +1,13 @@
 ---
-title: 🔰 Extensions Form
+title:   Extensions Form
 layout: home
 nav_order: 2
 description: "About FlightPath Data Config's Extensions Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/extensions.html
 ---
 
-# 🔰 The Extensions Form
+#   The Extensions Form
 {: .no_toc }
 
 

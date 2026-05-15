@@ -1,13 +1,13 @@
 ---
-title: 🎨 Sourcing Data For a Server Project
-parent: 🎨 Server
+title:   Sourcing Data For a Server Project
+parent:   Server
 layout: home
 nav_order: 20
 description: "How to create a new FlightPath Server project."
 permalink: /data/howto/server/source-server-data.html
 ---
 
-# How To Source Data In a Server Project
+#   How To Source Data In a Server Project
 
 In developing new validations it often helps to have three stages before production: local, production-like local test, production-like server test.
 

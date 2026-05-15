@@ -1,13 +1,13 @@
 ---
-title: 🎨 Changing Delimiters
-parent: 🎨 Data
+title:   Changing Delimiters
+parent:   Data
 layout: home
 nav_order: 3
 description: "How to change the delimiter of a CSV file"
 permalink: /data/howto/data/change-delimiters.html
 ---
 
-# How To Change Delimiters
+#   How To Change Delimiters
 
 CSV files have counterparts that use other delimiters. For example, `.tsv` files use tabs, instead of commas. Likewise `.psv` use the `|` character. FlightPath lets you set the delimiter for a file and switch delimiter when you save a file.
 

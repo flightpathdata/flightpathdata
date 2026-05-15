@@ -13,9 +13,8 @@ permalink: /flightpath.html
     <img src="assets/logos/logo-wordmark_lg.png"/>
     <h1>AI-assisted Edge Data Governance</h1>
     <h3 class='fs-5 move-up'>
-            Land enterprise data file feeds with confidence, efficiency and quality.
-            <br/>    Before you ingest data, be sure it's the right data and it's ready.
-
+            <p>    Before you ingest data, be sure it's the right data and it's ready.
+            </p>
     </h3>
 
     <div style='width:100%; text-align:center;margin-bottom:50px'>

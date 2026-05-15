@@ -1,13 +1,13 @@
 ---
-title: 🎨 Creating a New Project
-parent: 🎨 Files
+title:   Creating a New Project
+parent:   Files
 layout: home
 nav_order: 1
 description: "How to create a new FlightPath project."
 permalink: /data/howto/files/new-project.html
 ---
 
-# How To Create a New Project
+#   How To Create a New Project
 
 {: .new }
 **Learn about CsvPath Framework:** Find lots more information and how-tos about CsvPath Framework automating data preboarding at [https://www.csvpath.org](https://www.csvpath.org/).

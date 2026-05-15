@@ -1,13 +1,13 @@
 ---
-title: 🎨 Find Run Location and Metadata
-parent: 🎨 Find
+title:   Find Run Location and Metadata
+parent:   Find
 layout: home
 nav_order: 4
 description: "Finding the location of a run directory and its metadata"
 permalink: /data/howto/runs/find-run-location.html
 ---
 
-# How To Find the Location Of Run Results
+#   How To Find the Location Of Run Results
 
 If you have many runs navigating to one may be easier using the Find Data Dialog than it would be by browsing.
 

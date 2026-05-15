@@ -1,13 +1,13 @@
 ---
-parent: 🎨 Registration
-title: 🎨 Most recently staged
+parent:   Registration
+title:   Most recently staged
 description: "How to find the most recently staged data file."
 layout: home
 nav_order: 7
 permalink: /data/how-tos/registration/most-recent.html
 ---
 
-# How To Find the Most Recently Staged File
+#   How To Find the Most Recently Staged File
 
 ## How to do it
 

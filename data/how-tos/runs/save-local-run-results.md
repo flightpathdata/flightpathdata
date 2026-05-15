@@ -1,13 +1,13 @@
 ---
-title: 🎨 Save Local Run Results
-parent: 🎨 Runs
+title:   Save Local Run Results
+parent:   Runs
 layout: home
 nav_order: 5
 description: "Saving the results of a local dev run."
 permalink: /data/howto/runs/save-run-results.html
 ---
 
-# How To Save The Results Of a Local Run
+#   How To Save The Results Of a Local Run
 
 {: .new }
 **Learn about CsvPath Framework:** Find lots more information and how-tos about CsvPath Framework automating data preboarding at [https://www.csvpath.org](https://www.csvpath.org/).

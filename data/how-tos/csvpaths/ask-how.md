@@ -1,13 +1,13 @@
 ---
-title: 🎨 Ask For Help
-parent: 🎨 Csvpaths
+title:   Ask For Help
+parent:   Csvpaths
 layout: home
 nav_order: 4
 description: "How to ask for help with csvpath validations"
 permalink: /data/how-tos/data/ask-how.html
 ---
 
-# How To Ask FlightPath For Help
+#   How To Ask FlightPath For Help
 
 FlightPath Data, through its AI, can help with ad hoc csvpath questions. Have a question that's more in the weeds than simply creating data or a schema? Just ask.
 

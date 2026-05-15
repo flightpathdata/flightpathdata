@@ -1,12 +1,12 @@
 ---
-title: 💬 Support
+title:  Support
 layout: home
 nav_order: 7
 description: "FlightPath Data support is available (free, best-effort basis) in the FlightPath Github repo issues tracker"
 permalink: /support.html
 ---
 
-# 💬 Support
+#   Support
 
 {: .important }
 FlightPath Data is an open source product. Unpaid support is available on a best-effort, Asap basis. Reach out at <a href='mailto:info@flightpathdata.com'>info@flightpathdata.com</a> for general requests. Please include your platform (e.g. MacOS, Windows) and processor architecture (e.g. ARM) and as much detail about the problem as you can. We will respond as soon as possible.

@@ -1,13 +1,13 @@
 ---
-title: ✨ Editors
+title:  Editors
 layout: home
 nav_order: 1
-parent: ✨ Features
+parent:  Features
 description: "FlightPath Data features enable you to manage external tabular datasets, automate using CsvPath Framework, and run your DataOps infrastructure. "
 permalink: /data/features/editors.html
 ---
 
-# ✨ Editors and Editing Features
+#  Editors and Editing Features
 {: .no_toc }
 
 

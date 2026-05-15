@@ -1,13 +1,13 @@
 ---
-title: 🎨 Csvpaths
+title:   Csvpaths
 layout: home
 nav_order: 5
 description: "Using FlightPath to create csvpath validations."
-parent: 🎨 How-tos
+parent:  How-tos
 permalink: /data/how-tos/csvpaths.html
 ---
 
-# 🎨 Csvpaths How-tos
+#  Csvpaths How-tos
 
 
 {: .new }

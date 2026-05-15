@@ -1,13 +1,13 @@
 ---
-title: 🎨 Registration
+title:   Registration
 layout: home
 nav_order: 5
 description: "Registrating new data how-tos."
-parent: 🎨 How-tos
+parent:  How-tos
 permalink: /data/how-tos/registration.html
 ---
 
-# 🎨 FlightPath Data Data Registration How-tos
+#  FlightPath Data Data Registration How-tos
 
 
 {: .new }

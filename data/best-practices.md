@@ -1,5 +1,5 @@
 ---
-title: 🫧 Best Practices
+title:  Best Practices
 layout: home
 nav_order: 9
 description: "Best practices for FlightPath projects and data preboarding success"
@@ -7,7 +7,7 @@ parent: FlightPath Data
 permalink: /data/best-practices.html
 ---
 
-# 🫧 Best Practices
+#   Best Practices
 {: .no_toc }
 
 ### With FlightPath doing preboarding right is the default setting.

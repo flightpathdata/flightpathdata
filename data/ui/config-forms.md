@@ -1,13 +1,13 @@
 ---
-title: 🔰 Config Forms
+title:   Config Forms
 layout: home
 nav_order: 2
 description: "Walks-through FlightPath Data's config forms"
-parent: 🔰 UI
+parent:  UI
 permalink: /data/ui/forms.html
 ---
 
-# 🔰 The FlightPath Data UI: The Config Forms
+#   The FlightPath Data UI: The Config Forms
 {: .no_toc }
 
 ### FlightPath Data's config panel helps you organize projects productively

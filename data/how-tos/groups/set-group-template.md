@@ -1,13 +1,13 @@
 ---
-title: 🎨 Set a Group Template
-parent: 🎨 Groups
+title:   Set a Group Template
+parent:   Groups
 layout: home
 nav_order: 4
 description: "How to assign a default template to a named-file."
 permalink: /data/howto/groups/set-named-paths-template.html
 ---
 
-# How To Assign a Default Template To a Group
+#   How To Assign a Default Template To a Group
 
 FlightPath gives you the ability to give results a certain path layout. This allows you to position files based on the original location of the data file or to mirror the layout of another system.
 

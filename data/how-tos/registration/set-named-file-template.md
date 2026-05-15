@@ -1,13 +1,13 @@
 ---
-title: 🎨 Set a Named-file Template
-parent: 🎨 Registration
+title:   Set a Named-file Template
+parent:   Registration
 layout: home
 nav_order: 4
 description: "How to assign a default template to a named-file."
 permalink: /data/howto/registration/set-named-file-template.html
 ---
 
-# How To Assign a Default Template To a Named-file
+#   How To Assign a Template To a Named-file
 
 FlightPath gives you the ability to register files within a named-file following a certain path layout. This allows you to position files based on where they came from or to mirror the layout of another system.
 

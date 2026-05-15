@@ -1,13 +1,13 @@
 ---
-title: 🔰 Project Form
+title:   Project Form
 layout: home
 nav_order: 2
 description: "About FlightPath Data Config's Projects Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/projects-form.html
 ---
 
-# 🔰 The Project Form
+#   The Project Form
 {: .no_toc }
 
 

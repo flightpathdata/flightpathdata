@@ -1,13 +1,13 @@
 ---
-title: 🎨 Load a Folder Of Csvpaths
-parent: 🎨 Groups
+title:   Load a Folder Of Csvpaths
+parent:   Groups
 layout: home
 nav_order: 4
 description: "How to create a named-paths group from csvpath files in a directory."
 permalink: /data/howto/groups/load-all-files-in-dir.html
 ---
 
-# How To Create a Group From the Files In a Directory
+#   How To Create a Group From the Files In a Directory
 
 FlightPath manages csvpath statements in files and groups. Multiple csvpath statements can live in a file. All of the statements in the file will be a part of the same group. A named-paths group can be created from multiple files. The easiest way to do that is to load all the files in a directory as one group.
 

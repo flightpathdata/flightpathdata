@@ -1,5 +1,5 @@
 ---
-title: 🔰 UI
+title:  UI
 layout: home
 nav_order: 7
 description: "Shows highlights of FlightPath Data's simple, clean UI"
@@ -7,7 +7,7 @@ parent: FlightPath Data
 permalink: /data/ui.html
 ---
 
-# 🔰 The FlightPath Data UI
+#   The FlightPath Data UI
 {: .no_toc }
 
 ### FlightPath Data has an intentionally simple user experience. While preboarding is not simple your tools can be.

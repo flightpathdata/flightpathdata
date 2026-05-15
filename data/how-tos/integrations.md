@@ -1,13 +1,13 @@
 ---
-title: 🎨 Integrations
+title:   Integrations
 layout: home
 nav_order: 8
 description: "Working with FlightPath Data integrations"
-parent: 🎨 How-tos
+parent:  How-tos
 permalink: /data/how-tos/integrations.html
 ---
 
-# 🎨 FlightPath Data Integration How-tos
+#  FlightPath Data Integration How-tos
 
 
 {: .new }

@@ -1,13 +1,13 @@
 ---
-title: 🔰 Offsets Form
+title:   Offsets Form
 layout: home
 nav_order: 2
 description: "About FlightPath Data Config's Offsets Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/offsets.html
 ---
 
-# 🔰 The Offsets Form
+#   The Offsets Form
 {: .no_toc }
 
 

@@ -1,13 +1,13 @@
 ---
-title: ✨ FlightPath Server
+title:  FlightPath Server
 layout: home
 nav_order: 6
-parent: ✨ Features
+parent:  Features
 description: "FlightPath Data gives you visual tools to manage FlightPath Server projects, so you have control and access without chaos."
 permalink: /data/features/server.html
 ---
 
-# ✨ Using FlightPath Server
+#  Using FlightPath Server
 
 ## Create Server Projects
 

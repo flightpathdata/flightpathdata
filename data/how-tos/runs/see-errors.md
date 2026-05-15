@@ -1,13 +1,13 @@
 ---
-title: 🎨 Errors In the Last Run
-parent: 🎨 Runs
+title:   Errors In the Last Run
+parent:   Runs
 description: "How to find the errors found in the last run."
 layout: home
 nav_order: 9
 permalink: /data/howto/runs/see-errors.html
 ---
 
-# How To See the Errors In the Most Recent Run
+#   How To See the Errors In the Most Recent Run
 
 ## How to do it
 

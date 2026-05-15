@@ -1,5 +1,5 @@
 ---
-title: 🆕 Whats New
+title:  Whats New
 layout: home
 nav_order: 5
 parent: FlightPath Data
@@ -7,7 +7,7 @@ description: "FlightPath Data features enable you to manage external tabular dat
 permalink: /data/new.html
 ---
 
-# 🆕 What's New in FlightPath Data 1.1.88
+#   What's New in FlightPath Data 1.1.88
 
 FlightPath Data 1.1.88 is the largest release since the product launched. It deepens AI-assisted authoring, adds an agentic operational layer, expands CsvPath Language significantly, and rounds out a number of operational features that make FlightPath a more complete edge data governance platform.
 

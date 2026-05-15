@@ -1,5 +1,5 @@
 ---
-title: 🎨 How-tos
+title:  How-tos
 layout: home
 nav_order: 8
 description: "Several simple FlightPath how-tos to get your preboarding automation prep started quickly."
@@ -7,7 +7,7 @@ parent: FlightPath Data
 permalink: /data/examples.html
 ---
 
-# 🎨 How-tos
+#  How-tos
 
 {: .highlight }
 > FlightPath generates extensive examples when it creates a new project. The examples include:

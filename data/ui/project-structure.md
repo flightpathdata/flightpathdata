@@ -1,13 +1,13 @@
 ---
-title: 🔰 Project Structure
+title:   Project Structure
 layout: home
 nav_order: 3
 description: "This is an overview of what a new FlightPath Data project looks like"
-parent: 🔰 UI
+parent:  UI
 permalink: /data/ui/directory-structure.html
 ---
 
-# 🔰 FlightPath Data Project Structure
+#   FlightPath Data Project Structure
 {: .no_toc }
 
 ### FlightPath Data creates a default project structure for your new projects.

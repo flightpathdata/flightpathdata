@@ -1,13 +1,13 @@
 ---
-title: ✨ Projects
+title:  Projects
 layout: home
 nav_order: 1
-parent: ✨ Features
+parent:  Features
 description: "FlightPath Data projects help you organize work locally and easily move it to FlightPath Server. "
 permalink: /data/features/projects.html
 ---
 
-# ✨ Projects
+#  Projects
 
 ## Project Management
 

@@ -1,13 +1,13 @@
 ---
-title: 🎨 Explain Csvpath
-parent: 🎨 Runs
+title:   Explain Csvpath
+parent:   Runs
 layout: home
 nav_order: 4
 description: "How to get a plain English explaination of a csvpath"
 permalink: /data/how-tos/data/explain-csvpath.html
 ---
 
-# How To Explain a Csvpath
+#   How To Explain a Csvpath
 
 When you develop against complex requirements, you will have more complicated csvpath statements. There are a number of things you can do to make it easier to understand and run your rules, but ultimately complex things are complicated. At that point getting a plain English summary of your validations is helpful.
 

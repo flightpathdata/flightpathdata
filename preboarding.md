@@ -1,5 +1,5 @@
 ---
-title: 💡 Data Preboarding Success
+title:  Data Preboarding Success
 layout: home
 nav_order: 5
 description: "Data preboarding is a DataOps process for bringing external tabular datasets into the enterprise and publishing them internally in a reliable way. "
@@ -7,7 +7,7 @@ permalink: /preboarding.html
 ---
 
 
-# 💡 Data Preboarding For DataOps Success
+#   Data Preboarding For DataOps Success
 
 ### Inbound data file feeds have the potential to stop your business cold
 {: .fs-5 .move-up }

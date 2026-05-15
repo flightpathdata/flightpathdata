@@ -1,13 +1,13 @@
 ---
-title: 🔰 Logging Form
+title:   Logging Form
 layout: home
 nav_order: 2
 description: "About FlightPath Data Config's Logging Form"
-parent: 🔰 Config Forms
+parent:   Config Forms
 permalink: /data/ui/config/logging.html
 ---
 
-# 🔰 The Logging Form
+#   The Logging Form
 {: .no_toc }
 
 ## Setting up logging

@@ -1,13 +1,13 @@
 ---
-title: 🎨 Find Results
-parent: 🎨 Find
+title:   Find Results
+parent:   Find
 layout: home
 nav_order: 4
 description: "Finding named-results"
 permalink: /data/howto/runs/find-run-results.html
 ---
 
-# How To Find Results
+#   How To Find Results
 
 You can find one or more run results by path or arrival date using the Find Data Dialog. The Dialog helps you build references and use them to access results. References are also used in rewind and replay runs.
 

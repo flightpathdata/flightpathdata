@@ -1,13 +1,13 @@
 ---
-title: 🎨 Start a Group Run
-parent: 🎨 Runs
+title:   Start a Group Run
+parent:   Runs
 layout: home
 nav_order: 4
 description: "How to start a production-like group run against a named-file."
 permalink: /data/howto/groups/start-prod-like-run.html
 ---
 
-# How To Start a Group Run
+#   How To Start a Group Run
 
 Production-like runs in FlightPath Data are part of development and can demonstrate that your production deployment is ready. A production-like run is manually triggered. It can apply a named-path group from any set of groups to data staged in any source location.
 

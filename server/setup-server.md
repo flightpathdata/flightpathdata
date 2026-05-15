@@ -1,5 +1,5 @@
 ---
-title: 🛠️ Up and Running
+title:  Up and Running
 layout: home
 nav_order: 1
 parent: FlightPath Server
@@ -8,7 +8,7 @@ permalink: /server/getting-setup.html
 ---
 
 
-# 🛠️ Setup FlightPath Server
+#   Setup FlightPath Server
 {: .no_toc }
 
 - TOC

@@ -1,13 +1,13 @@
 ---
-title: 🎨 Find Files
-parent: 🎨 Find
+title:   Find Files
+parent:   Find
 layout: home
 nav_order: 4
 description: "Finding named-files"
 permalink: /data/howto/runs/find-named-file-versions.html
 ---
 
-# How To Find Named-files
+#   How To Find Named-files
 
 You can find one or more named files by path or arrival date using the Find Data Dialog. The Dialog helps you build references and use them to access named-files and results.
 
