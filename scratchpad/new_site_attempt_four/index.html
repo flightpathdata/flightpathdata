@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlightPath Data</title>
+<link rel="icon" href="assets/favicon.ico">
+<link rel="stylesheet" href="_shared/styles.css">
+<link rel="stylesheet" href="_shared/tone.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<style>
+  /* === Direction B — Editorial ===================================
+     Type-led, generous whitespace. No hero screenshot — the words
+     are the visual. Numbered runs, sparse layouts, the page reads
+     like a confident essay.
+     =============================================================== */
+
+  body { background: #FBFBF8; }  /* warm off-white, away from clinical white */
+
+  .topnav { background: rgba(251,251,248,0.92); border-bottom: 0; }
+  .topnav__inner { height: 80px; }
+
+  /* ----- Hero ----- */
+  .hero { padding: 55px 0 100px; }
+
+  .hero__eyebrow {
+    display: inline-flex; align-items: center; gap: 12px;
+    font-family: var(--font-mono); font-size: 13px;
+    color: var(--fg-quiet);
+    letter-spacing: 1.5px; text-transform: uppercase;
+    margin-bottom: 48px;
+  }
+  .hero__eyebrow::before,
+  .hero__eyebrow::after,
+  .audience__intro::before,
+  .audience__intro::after,
+  .jab__chip::before,
+  .jab__chip::after,
+  .attr::before,
+  .attr::after {
+    content: ''; display: inline-block;
+    width: 32px; height: 1px; background: var(--fg-quiet);
+  }
+
+  .hero h1 {
+    font-size: 112px;
+    font-weight: 700;
+    line-height: 0.95;
+    letter-spacing: -3.5px;
+    margin-bottom: 56px;
+    text-wrap: balance;
+    max-width: 1100px;
+  }
+  .hero h1 .blue  { color: var(--action-blue); }
+  .hero h1 .quiet { color: var(--fg-quiet); font-weight: 300; }
+
+  .hero__sub {
+    display: grid; grid-template-columns: 1fr 1fr;
+    align-items: end;
+    max-width: 1100px;
+  }
+  .hero__sub > p {
+    font-size: 28px;
+    font-weight: 300; line-height: 1.55;
+    color: var(--fg); max-width: 520px;
+  }
+  .hero__ctas {
+          margin-bottom: auto;
+    margin-top: 40px;
+    display: flex; flex-wrap: wrap; gap: 16px;
+    align-items: center;
+  }
+
+  /* ----- Audience as a stacked editorial list ----- */
+  .audience { padding: 100px 0 80px; background: #fff; }
+  .audience__intro {
+    display: inline-flex; align-items: center; gap: 12px;
+    font-family: var(--font-mono); font-size: 13px;
+    color: var(--fg-quiet); text-transform: uppercase; letter-spacing: 1.5px;
+    margin-bottom: 24px;
+  }
+  .audience h2 {
+    font-size: 44px; font-weight: 400; line-height: 1.1;
+    letter-spacing: -1px;
+    max-width: 850px;
+    margin-bottom: 64px;
+  }
+  .audience h2 em { font-style: normal; font-weight: 700; color: var(--action-blue); }
+  .aud-row {
+    display: grid; grid-template-columns: 60px 280px 1fr 140px;
+    gap: 32px;
+    padding: 32px 0;
+    border-top: 1px solid rgba(42,42,42,0.12);
+    align-items: baseline;
+    transition: all .35s var(--ease);
+    cursor: pointer;
+  }
+  .aud-row:last-of-type { border-bottom: 1px solid rgba(42,42,42,0.12); }
+  .aud-row:hover { background-color: var(--bg-soft); padding-left: 12px; }
+  .aud-row:hover h3, .aud-row:hover .num { color: var(--action-blue); }
+  .aud-row .num {
+    font-family: var(--font-mono); font-size: 13px;
+    color: var(--fg-quiet);
+    transition: color .35s;
+  }
+  .aud-row h3 {
+    font-size: 28px; font-weight: 700;
+    letter-spacing: -0.4px;
+    transition: color .35s;
+  }
+  .aud-row p {
+    font-size: 20px; font-weight: 300; line-height: 1.6;
+    color: var(--fg);
+    margin-bottom: auto;
+  }
+  .aud-row .go {
+    font-size: 13.5px; font-weight: 500;
+    color: var(--action-blue);
+    text-align: right;
+    display: inline-flex; gap: 6px; justify-content: flex-end; align-items: center;
+  }
+
+  /* ----- Pull quote / concept ----- */
+  .pull { padding: 140px 0; text-align: center; }
+  .pull blockquote {
+    font-size: 48px; font-weight: 400; line-height: 1.25;
+    letter-spacing: -0.8px;
+    max-width: 920px; margin: 0 auto;
+    text-wrap: balance;
+  }
+  .pull blockquote strong { font-weight: 700; color: var(--action-blue); }
+  .pull .attr {
+    display: inline-flex; align-items: center; gap: 12px;
+    position: relative; left: 210px;
+    margin-top: 36px;
+    font-family: var(--font-mono); font-size: 13px;
+    color: var(--fg-quiet);
+    letter-spacing: 1.5px; text-transform: uppercase;
+  }
+
+  /* ----- Preboarding concept — diagram + text inverted from A ----- */
+  .concept { padding: 120px 0 70px; background: #fff; }
+  .concept__top {
+    display: grid; grid-template-columns: 1fr 1fr;
+    align-items: end;
+  }
+  .concept__top h2 {
+    font-size: 56px; font-weight: 400;
+    line-height: 1.05; letter-spacing: -1.5px;
+  }
+  .concept__top h2 em {
+    font-weight: 700;
+    font-style: normal; color: var(--action-blue);
+  }
+  .concept__top p {
+    font-size: 17px; font-weight: 300; line-height: 1.65;
+    color: var(--fg); margin-bottom: 14px;
+  }
+  .preboarding-steps h2 {
+    margin: auto 0;
+    position: relative;
+    bottom: 30px;
+  }
+  .preboarding-steps .icon-block:last-child { margin-bottom: 0; }
+
+  /* ----- Anti-enterprise jab — full editorial spread ----- */
+  .jab { padding: 120px 0; text-align: center; }
+  .jab__chip {
+    display: inline-flex; align-items: center; gap: 12px;
+    font-family: var(--font-mono); font-size: 13px;
+    letter-spacing: 1.5px; text-transform: uppercase;
+    color: var(--fg-quiet);
+    padding: 8px 14px;
+    margin-bottom: 36px;
+  }
+  .jab__head {
+    font-size: 72px; font-weight: 400; line-height: 1.1;
+    letter-spacing: -1.5px;
+    margin-bottom: 24px;
+    text-wrap: balance; max-width: 980px; margin-left: auto; margin-right: auto;
+  }
+  .jab__head .strike {
+    color: var(--fg-quiet);
+    text-decoration: line-through;
+    text-decoration-thickness: 5px;
+    text-decoration-color: rgba(42,42,42,0.4);
+  }
+  .jab__head .replace { color: var(--action-blue); font-weight: 700; }
+  .jab__sub {
+    font-size: 26px; font-weight: 300; line-height: 1.6;
+    color: var(--fg-quiet); max-width: 700px; margin: 24px auto 0;
+  }
+
+  /* ----- Product strip — typographic ----- */
+  .products { padding: 100px 0; background: #fff; }
+  .products__head {
+    margin-bottom: 100px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: end;
+  }
+  .products__head h2 {
+    font-size: 48px; font-weight: 400;
+    letter-spacing: -1px; line-height: 1.1;
+    margin: 0 auto auto 0;
+  }
+  .products__head h2 strong { color: var(--action-blue); font-weight: 700; }
+  .products__head p {
+    font-size: 26px; font-weight: 300; line-height: 1.65;
+    color: var(--fg-quiet); max-width: 460px;
+    margin-bottom: auto;
+  }
+  .products .open-inner { height: 490px; }
+  .product-card .product-logo { height: 55px; }
+  .product-card .product-logo.product-logo--server { height: 50px; }
+  .product-card-buttons .btn-primary { margin-right: 10px; }
+  .product-card-buttons .btn-primary:last-child { margin-right: auto; }
+
+  /* ----- Footer overrides ----- */
+  .footer .footer__copy { margin-bottom: 0; }
+  .footer .footer__copy img { height: 50px; margin-right: 16px; opacity: 0.7; }
+</style>
+</head>
+<body>
+
+<header class="topnav">
+  <div class="wrap topnav__inner">
+    <a href="#" class="topnav__logo">
+      <img src="assets/logos/flightpath-full-wordmark-and-icon.png" alt="FlightPath Data">
+    </a>
+    <nav class="topnav__links">
+      <a href="#concept">Preboarding</a>
+      <a href="#audience">Solutions</a>
+      <a href="#bizops">FlightPath Data</a>
+      <a href="#jab">FlightPath Server</a>
+      <a href="#product">Pricing</a>
+      <a class="docs" href="https://www.flightpathdata.com/flightpath.html">Docs</a>
+    </nav>
+    <div class="topnav__cta">
+      <a class="btn btn-primary" target="_blank" href="https://apps.apple.com/us/app/flightpath-data/id6745823097"><i class="fab fa-apple"></i> For macOS</a>
+      <a class="btn btn-primary" target="_blank" href="https://apps.microsoft.com/detail/9P9PBPKZ4JDF"><i class="fab fa-windows"></i> For Windows</a>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Hero — type as the entire image ===== -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero__eyebrow">Open source edge data governance</div>
+    <h1>
+      Land tabular data <span class="blue">with confidence.</span>
+      <span class="quiet">Before ETL. Before your lake. With AI.</span>
+    </h1>
+    <div class="hero__sub">
+      <p>
+        FlightPath is the control panel<br>
+        for enterprise data deliveries<br>
+        from partners you don't control.
+      </p>
+      <div class="hero__ctas">
+        <a class="btn btn-primary" target="_blank" href="https://apps.apple.com/us/app/flightpath-data/id6745823097"><i class="fab fa-apple"></i> For macOS</a>
+        <a class="btn btn-primary" target="_blank" href="https://apps.microsoft.com/detail/9P9PBPKZ4JDF"><i class="fab fa-windows"></i> For Windows</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Audience as editorial list ===== -->
+<section class="audience" id="audience">
+  <div class="wrap">
+    <div class="audience__intro">Who it's for</div>
+    <h2>Before you ingest data files,<br><em>be sure it's the right data and it's ready</em>.</h2>
+    <a href="#developers" class="aud-row">
+      <span class="num">01</span>
+      <h3>Developers</h3>
+      <p>AI-assisted authoring of validations from requirements. Explain scripts, generate test data, refactor as contracts shift. Compress the path from partnership agreement to production.</p>
+      <span class="go">Developers <span class="arrow">→</span></span>
+    </a>
+    <a href="#bizops" class="aud-row">
+      <span class="num">02</span>
+      <h3>BizOps</h3>
+      <p>Asynchronous agentic workflows, activation-triggered runs, webhook notifications. Routine data arrival becomes a hands-off, observable process — not a manual one.</p>
+      <span class="go">BizOps <span class="arrow">→</span></span>
+    </a>
+    <a href="#jab" class="aud-row">
+      <span class="num">03</span>
+      <h3>IT &amp; DevOps</h3>
+      <p>FlightPath Server: a no-code, JSON-API integration hub for MFT, AWS, Azure, GCP, SFTP. Isolated projects, job control, OpenTelemetry &amp; OpenLineage out of the box.</p>
+      <span class="go">IT &amp; DevOps <span class="arrow">→</span></span>
+    </a>
+  </div>
+</section>
+
+<!-- ===== Pull quote — receiving dock ===== -->
+<section class="pull">
+  <div class="wrap-md">
+    <blockquote>
+      Imagine a retailer pulling boxes off a truck and dragging them
+      <strong>straight into the store</strong> for customers to buy.
+      It would be chaos — and it would never happen.
+    </blockquote>
+    <div class="attr">Data deserves more care</div>
+  </div>
+</section>
+
+<!-- ===== Concept — diagram + text ===== -->
+<section class="concept" id="concept">
+  <div class="wrap">
+    <div class="concept__top preboarding-steps">
+      <h2>Data preboarding<br>in <em>five moves</em>.</h2>
+      <div>
+        <div class="icon-block"><div class="icon collect"></div><strong>Receive</strong> data files into immutable storage.</div>
+        <div class="icon-block"><div class="icon identify"></div><strong>Register</strong> with a durable identity and version.</div>
+        <div class="icon-block"><div class="icon validate"></div><strong>Validate</strong> and upgrade according to rules.</div>
+        <div class="icon-block"><div class="icon lineage"></div><strong>Capture</strong> lineage and operational metadata.</div>
+        <div class="icon-block"><div class="icon publish"></div><strong>Publish</strong> immutable known-good data.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Persona: BizOps — screenshot LEFT ===== -->
+<section id="bizops" class="persona">
+  <div class="wrap persona__grid">
+    <div class="persona__visual">
+      <figure class="persona__card">
+        <figcaption class="persona__card-head">
+          <span class="persona__card-eyebrow">FlightPath AI · BizOps</span>
+          <span class="persona__card-meta">Validation from requirements</span>
+        </figcaption>
+        <img src="assets/images/validation_generation.png" alt="FlightPath AI generating validation rules from plain-English requirements.">
+      </figure>
+    </div>
+    <div class="persona__content">
+      <div class="persona__intro">For BizOps</div>
+      <h2 class="persona__title">Your rules, <em>automatically</em>.</h2>
+      <p class="persona__body">
+        Generate precise data contract rules from plain English business requirements.
+      </p>
+      <p class="persona__body">
+        End manual data quality checking, reduce firefighting, and build a shared source of truth across the business.
+      </p>
+      <ul class="persona__list">
+        <li>Generate validation rules from partner contract language</li>
+        <li>Plain-English explanations of any script</li>
+        <li>Automated checks replace manual inspection</li>
+        <li>Shared validation rules. Shared understandings.</li>
+        <li>Agentic workflows and data stay on your infrastructure</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Persona: Developers — screenshot RIGHT ===== -->
+<section id="developers" class="persona persona--alt persona--reverse" style="padding-top:120px">
+  <div class="wrap persona__grid">
+    <div class="persona__content">
+      <div class="persona__intro">For Developers</div>
+      <h2 class="persona__title">Stop scripting every data partnership <em>from scratch</em>.</h2>
+      <p class="persona__body">
+        Purpose-built, precision tooling for tabular data. Quickly deliver what the business needs.
+      </p>
+      <p class="persona__body">
+        Pair-program validation scripts from specs. AI explains existing rules, creates test data, and aids refactoring.
+      </p>
+      <ul class="persona__list">
+        <li>Precise validation and transformation for CSV, JSONL, and Excel</li>
+        <li>Profile data, auto-generate test sets, review data versions</li>
+        <li>Asynchronous job control activated on arrival</li>
+        <li>Webhooks connect CI/CD, Slack, and alerting pipelines</li>
+        <li>Parquet output, JSON Query, SQL support, and dozens of functions</li>
+      </ul>
+    </div>
+    <div class="persona__visual">
+      <figure class="persona__card">
+        <figcaption class="persona__card-head">
+          <span class="persona__card-eyebrow">FlightPath Data · Developer</span>
+          <span class="persona__card-meta">Stage incoming data files</span>
+        </figcaption>
+        <img src="assets/images/stage_data_dark.png" alt="FlightPath Data staging dialog for incoming data files.">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Enterprise jab ===== -->
+<section class="jab" id="jab">
+  <div class="wrap-md">
+    <div class="jab__chip">Doing the job right is a sensible default</div>
+    <p class="jab__head">
+      For this job you need a <span class="strike">Swiss Army knife</span>
+      <br>
+      <span class="replace">socket wrench.</span>
+    </p>
+    <p class="jab__sub">
+      Most data infrastructure tools are built to observe ambiguity.<br>
+      FlightPath Server is built to enforce contracts.
+    </p>
+  </div>
+</section>
+
+<!-- ===== Products ===== -->
+<section class="products" id="product">
+  <div class="wrap">
+    <div class="products__head">
+      <h2><strong>One framework</strong> for every data partner. Clear visibility across all.</h2>
+      <p>The foundation of FlightPath is the open-source CsvPath Framework. An app for development and ops. A server for production. Nothing to buy.</p>
+    </div>
+    <div class="open-inner">
+      <div class="product-card">
+        <img src="https://www.flightpathdata.com/assets/logos/csvpath-wordmark-blue-sm.png" alt="CsvPath Framework" class="product-logo">
+        <div class="product-desc">The open-source validation and transformation language purpose-built for tabular data preboarding.</div>
+        <ul class="product-list">
+          <li>Consistent architecture for ingestion</li>
+          <li>Precise validation of CSV, JSONL, Excel</li>
+          <li>Trusted publishing API for downstream</li>
+          <li>Easy Python DataOps automation</li>
+          <li>Native support for S3, Azure, SFTP, and GCP</li>
+          <li>OpenLineage and OpenTelemetry built-in</li>
+          <li>Many no-code / low-code integration options</li>
+        </ul>
+        <div class="product-card-buttons">
+          <a href="https://www.csvpath.org" target="_blank" class="btn-outline"><span class="csvpath"></span>csvpath.org</a>
+          <a href="https://github.com/csvpath/csvpath/tree/main" target="_blank" class="btn-outline"><i class="fab fa-github"></i>Github</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="assets/logos/flightpath-full-wordmark-and-icon.png" alt="FlightPath Data" class="product-logo">
+        <div class="product-desc">The AI-powered cross-platform Python frontend for building, running, and managing enterprise data preboarding projects.</div>
+        <ul class="product-list">
+          <li>Centralize data partner preboarding projects</li>
+          <li>High-powered CSV, JSON, and CsvPath editor</li>
+          <li>Agentic AI development and BizOps assistant</li>
+          <li>Asynchronous job control and run activations</li>
+          <li>Metadata discovery and forensic explanation</li>
+          <li>Fast low-code / no-code configuration</li>
+          <li>GUI support for FlightPath Server</li>
+        </ul>
+        <div class="product-card-buttons">
+          <a style="margin-left:auto" class="btn btn-primary" target="_blank" href="https://apps.apple.com/us/app/flightpath-data/id6745823097"><i class="fab fa-apple"></i> macOS</a>
+          <a class="btn btn-primary" target="_blank" href="https://apps.microsoft.com/detail/9P9PBPKZ4JDF"><i class="fab fa-windows"></i> Windows</a>
+        </div>
+      </div>
+      <div class="product-card">
+        <img src="https://www.flightpathdata.com/assets/logos/flightpath-server-logo-4-1024.png" alt="FlightPath Server" class="product-logo product-logo--server">
+        <div class="product-desc">A self-hosted low-code / no-code integration REST JSON API that wires up your DataOps infrastructure.</div>
+        <ul class="product-list">
+          <li>REST JSON API running CsvPath Framework</li>
+          <li>No-code MFT integrations</li>
+          <li>One-click project deployment</li>
+          <li>Project access control and segmentation</li>
+          <li>Query results archives from downstream systems</li>
+          <li>Join up multi-cloud bronze layers</li>
+          <li>Plain Python or bundled with FlightPath Data</li>
+        </ul>
+        <div class="product-card-buttons">
+          <a href="https://www.flightpathdata.com/flightpath.html" class="btn-outline">
+            <svg width="13" height="13" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            Documentation
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="wrap footer__grid">
+    <div class="footer__brand">
+      <img src="assets/logos/flightpath-full-wordmark-and-icon.png" alt="FlightPath Data">
+      <p>AI-powered Enterprise Edge Data Governance. Built by Atesta Analytics. Open and free.</p>
+    </div>
+    <div class="footer__col">
+      <h5>Product</h5>
+      <ul>
+        <li><a href="#concept">FlightPath Data</a></li>
+        <li><a href="#jab">FlightPath Server</a></li>
+        <li><a href="https://www.csvpath.org" target="_blank">CsvPath Framework</a></li>
+        <li><a href="#product">Pricing</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h5>Solutions</h5>
+      <ul>
+        <li><a href="#developers">For Developers</a></li>
+        <li><a href="#bizops">For BizOps</a></li>
+        <li><a href="#jab">For IT &amp; DevOps</a></li>
+        <li><a href="#concept">Preboarding</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h5>Resources</h5>
+      <ul>
+        <li><a href="https://www.flightpathdata.com/flightpath.html">Docs</a></li>
+        <li><a href="https://blog.csvpath.org" target="_blank">Blog</a></li>
+        <li><a href="https://github.com/csvpath/csvpath" target="_blank">GitHub</a></li>
+        <li><a href="mailto:hello@atesta.ai">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap footer__copy">
+    <img src="assets/logos/logo-wordmark-white.png" alt="Atesta">
+    <span>© 2026 Atesta Analytics. All rights reserved.</span>
+  </div>
+</footer>
+
+</body>
+</html>
