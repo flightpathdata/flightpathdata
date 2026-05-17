@@ -22,7 +22,7 @@ ul { list-style: none; }
 
 /* ---------- Containers ---------- */
 .wrap {
-   max-width: 1200px;
+   max-width: 1300px;
    /*margin: 0 auto 60px auto;*/
    margin: 0 auto 20px auto;
    padding: 0 32px;

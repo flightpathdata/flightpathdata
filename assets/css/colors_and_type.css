@@ -21,7 +21,7 @@
    csvpath.org docs site for nav glyphs). 1k+ icons, BSD. */
 @font-face {
   font-family: "coolicons";
-  src: url("assets/fonts/coolicons.ttf") format("truetype");
+  src: url("fonts/coolicons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
