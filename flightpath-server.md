@@ -2,29 +2,24 @@
 title: FlightPath Server
 layout: home
 nav_order: 3
-description: "FlightPath Server is data ingestion infrastructure that preboards tabular datasets to give you confidence, efficiency, and quality. "
+description: "FlightPath Server is data ingestion infrastructure that lands inbound tabular datasets with confidence, efficiency, and quality. "
 permalink: /server.html
 nav_fold: false
 ---
 
+<div class="headline-logo" style='margin:10px 0 70px 0'>
+    <img src="assets/logos/flightpath-server-logo-4-1024.png"/>
+    <h1>The production runtime for FlightPath Data projects.
+</h1>
+    <h3 class='fs-5 move-up'>
 
-<div class="headline-logo">
-    <img src="assets/logos/flightpath-server-logo-4-1024.png" style='width:450px;'/>
-    <h1>Automated data preboarding made simple.</h1>
-    <h3 class='fs-5 move-up'>Shift-left for higher agility, quality, and efficiency</h3>
-    <br/>
-    <p>
-        FlightPath Server is open, free, and cross-platform. Find it on the
-        <a href='https://apps.apple.com/us/app/flightpath-data/id6745823097?mt=12'>Apple MacOS Store</a>,
-        the <a href='https://apps.microsoft.com/detail/9P9PBPKZ4JDF'>Microsoft Store</a>,
-        or on <a href='https://github.com/dk107dk/flightpath/tree/main'>GitHub</a>.
+    </h3>
+    <p style='position:relative;bottom:0px; margin-top:40px;font-size:20px;font-weight400;'>
+FlightPath Server is bundled with FlightPath Data. Download
+ <img alt="Static Badge" src="https://img.shields.io/badge/Version-1.1.88-lightblue" style="position: relative;bottom: -5px;"> native binaries.
     </p>
-    <div style='width:100%; text-align:center;'>
-        <div>
             <p class="label label-blue store-label mx-auto"><a href='https://apps.apple.com/us/app/flightpath-data/id6745823097?mt=12'><i class="fab fa-apple"></i> Apple MacOS Store</a></p>
             <p class="label label-blue store-label mx-auto"><a href='https://apps.microsoft.com/detail/9P9PBPKZ4JDF'><i class="fab fa-windows"></i> Microsoft Store</a></p>
-        </div>
-    </div>
 </div>
 
 
@@ -33,57 +28,55 @@ nav_fold: false
 
 
 
+<!--div style='text-align:center;'>
+<img src='/assets/logos/flightpath-server-logo-4-1024.png' style='width:350px; margin:20px auto 20px auto;'/>
+</div>
+FlightPath Server is open, free, and cross-platform. It is bundled with FlightPath Data. When you install FlightPath Data the server is also installed. Download <img alt="Static Badge" src="https://img.shields.io/badge/Version-1.1.88-lightblue" style="position: relative;bottom: -5px;"> from the Apple MacOS Store or the Microsoft Store.
+
+<div style='width:100%; text-align:center;margin-bottom:50px'>
+        <p class="label label-blue store-label mx-auto"><a href='https://apps.apple.com/us/app/flightpath-data/id6745823097?mt=12'><i class="fab fa-apple"></i> Apple MacOS Store</a></p>
+        <p class="label label-blue store-label mx-auto"><a href='https://apps.microsoft.com/detail/9P9PBPKZ4JDF'><i class="fab fa-windows"></i> Microsoft Store</a></p>
+</div-->
+
+
 
 
 
 ## What Is FlightPath Server?
+FlightPath Server is a REST API that enables inbound CSV, JSONL, and Excel files automation. It applies quality and governance controls, and stages them for downstream consumers. FlightPath Server runs the preboarding workflows you build in FlightPath Data in a multi-user, multi-project production environment, without manual intervention.
 
-FlightPath Server is a REST API to land arriving CSV and Excel data files, apply quality and governance controls, and stage them for downstream consumers. With FlightPath Server you can:
+With FlightPath Server you can:
 
-* Apply schemas and rules to minimize manual processing
-* Connect managed file transfer to data lakes and applications as a trusted data publisher
-* Provide access to metadata that helps trace problems and clarify data flows
-* Capture versioned, upgraded, and well-identified source data at the organization's edge
+<span style='color:#4466ee'>▶</span> **Automate data arrival**: Activations trigger runs when files land, with no scheduling or polling required <br/>
+<span style='color:#4466ee'>▶</span> **Apply schemas and rules at scale**: Minimize manual processing and eliminate ad-hoc data checking <br/>
+<span style='color:#4466ee'>▶</span> **Connect MFT**: Creates a no-code path from MFT (managed file transfer) to data lakes and applications via a trusted, known-good data publisher <br/>
+<span style='color:#4466ee'>▶</span> **Notify downstream automatically**: Trigger webhooks on run outcomes, among other no-code integration options. <br/>
+<span style='color:#4466ee'>▶</span> **Trace problems and clarify data flows**: Every run generates lineage and ops metadata that can be shared via OpenTelemetry or OpenLineage. <br/>
+<span style='color:#4466ee'>▶</span> **Stage versioned, upgraded, well-identified data**: The organization's edge has never been so well governed.
 
-FlightPath Server enables DataOps teams to shift-left their data file feed quality management, while scaling down manual processing and gaining efficiency through project consistency. Combined with the FlightPath Data frontend app, onboarding new data partners becomes rapid and predictable.
+Combined with FlightPath Data, onboarding a new data partner goes from weeks to days. Projects deploy to Server in minutes from the same environment you used to build them.
 
+## Bundled with FlightPath Data
 
-<!--table style='margin-top:10px;'>
-    <tr>
-        <td>
-            <img src='../../assets/images/high-level-data-flow.png'/>
-        </td>
-    </tr>
-</table>
-<div style='text-align:center'>
-  <caption>FlightPath Server is a quality-first channel from MFT to downstream data consumers</caption>
-</div-->
+There is no separate install. FlightPath Server is a lightweight binary that is easy to deploy.
+It is designed to be running before you've finished your coffee:
 
-## Roll-out Rapidly
-
-FlightPath Server sets up quickly and gives you a pre-built framework for ingestion preboarding. Fast-start features include:
-
-* FlightPath Server is bundled with FlightPath Data. It installs in seconds.
-* The REST JSON API is simple and fits most upstream and downstream tools
-* FlightPath Data and CsvPath Framework projects migrate to FlightPath Server in minutes
-* Configuration and access made easy by the FlightPath Data frontend app
+## Move Fast, Achieve Stuff
+Simple REST JSON API that fits most upstream and downstream tools without custom adapters
+Projects deploy from FlightPath Data in minutes — the same config you tested locally runs in production unchanged
+Config variable interpolation keeps secrets cleanly separated from runtime configuration, making multi-environment deployments straightforward
 
 ## Infrastructure and Integrations
+FlightPath Server runs as a native binary on MacOS and Windows 11, as a Windows service, or on any platform from the GitHub repo as a Python server. Its supported storage backends are:
 
-FlightPath Server runs as a native binary on MacOS and Windows 11. It runs on any platform from the Git repo as a Python server. FlightPath Server supports all the same infrastructure backends that CsvPath Framework does. Its storage backends are:
+<span style='color:#4466ee'>▶</span> AWS S3 <br/>
+<span style='color:#4466ee'>▶</span> Azure Blob Storage <br/>
+<span style='color:#4466ee'>▶</span> Google Cloud Storage <br/>
+<span style='color:#4466ee'>▶</span> SFTP servers <br/>
+<span style='color:#4466ee'>▶</span> Locally mounted file systems
 
-* AWS S3
-* Azure Blob Storage
-* Google Cloud Storage
-* SFTP servers
-* Locally mounted file systems
+FlightPath Data makes it easy to configure CsvPath Framework integrations including Slack, OpenTelemetry, OpenLineage, webhooks, and more.
 
-The FlightPath Data frontend app makes it easy to configure CsvPath Framework integrations, including Slack, OpenTelemetry, OpenLineage, webhooks, and more.
-
-## Get Started!
-* ✨ [FlightPath Server Features](server-features.html)
-* 🛠️ [FlightPath Server How-tos](server-howtos.html)
-* 💡 [Preboarding For Success](preboarding.html)
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {

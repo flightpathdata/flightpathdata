@@ -1,0 +1,285 @@
+/* ============================================================
+   FlightPath Data — Colors & Type
+   Atesta Analytics, FlightPath Data, FlightPath Server,
+   CsvPath Framework.
+   ============================================================
+
+   Lifted from flightpathdata.com (TemplateMo "Chain App Dev"
+   base + custom overrides) and the brand logo SVGs.
+
+   The brand is enterprise software with a deliberately *light*
+   aesthetic: white backgrounds, bold-but-not-heavy blue accents,
+   thin-to-regular Roboto, generous pill-shaped rounding.
+   Avoid heavy navy/dark-blue gradients common to enterprise
+   data tools — they're explicitly off-brand. */
+
+/* ---------- Fonts ---------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* "Coolicons" — the brand's bundled icon font (used in the
+   csvpath.org docs site for nav glyphs). 1k+ icons, BSD. */
+@font-face {
+  font-family: "coolicons";
+  src: url("assets/fonts/coolicons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* NOTE on display fonts:
+   The FlightPath wordmark was drawn in **Shree Devanagari 714**.
+   The Atesta Analytics wordmark was set in **Verdana Pro Regular**.
+   Neither is available as a webfont we can ship here — both wordmarks
+   are baked-in PNG/SVG assets, so screen type does NOT need them.
+   For body+UI, the brand uses Roboto across the board (Jekyll docs,
+   the marketing site, and the desktop app's web views).
+
+   If a future asset needs the FlightPath display look in HTML, the
+   nearest free substitutes are **Hind** (Indian Type Foundry, Google
+   Fonts — Devanagari + Latin, similar humanist proportions) or
+   **Asap**. Flag the substitution.                                 */
+
+:root {
+
+  /* =========================================================
+     COLOR — BRAND
+     ========================================================= */
+
+  /* The two definitive brand marks. The icon circle is the
+     deeper, saturated #228BDF. The yellow pixel-grid that fills
+     the circle is #FFCC00. Together they say "data, but warm". */
+  --brand-blue:           #228BDF;   /* logo circle / primary brand */
+  --brand-yellow:         #FFCC00;   /* logo pixel grid / accent     */
+  --brand-blue-deep:      #0639BD;   /* hover/active darker step     */
+
+  /* The marketing site's interactive blue. Lighter and a touch
+     softer than the logo blue — used for buttons, links, hovers.
+     Use this on the web; reserve --brand-blue for marks/spot. */
+  --action-blue:          #4B8EF1;
+  --action-blue-hover:    #3D76E3;   /* aux-nav link hover           */
+  --action-blue-soft:     #BBDDFF;   /* caption pill background      */
+  --caption-blue:         #225588;   /* caption text on soft-blue    */
+
+  /* Gradient — used sparingly on a single "gradient-button"
+     CTA on the marketing site. Cool cyan→indigo, very brand. */
+  --grad-cyan:            #28E1FD;
+  --grad-indigo:          #5B68EB;
+  --gradient-button:      linear-gradient(105deg, #5B68EB 0%, #28E1FD 100%);
+
+  /* Purple secondary — appears once, on the "free quote" form
+     submit button. Keep available, use rarely. */
+  --accent-purple:        #726AE3;
+
+  /* =========================================================
+     COLOR — NEUTRALS
+     ========================================================= */
+
+  --bg:                   #FFFFFF;   /* canvas — almost always white */
+  --bg-soft:              #F7F7F7;   /* submenu / inert surface      */
+  --bg-muted:             #F4F4F2;   /* popup header strip           */
+  --bg-tint:              #E4E4E2;   /* button hover ghost           */
+
+  --fg:                   #2A2A2A;   /* primary text                 */
+  --fg-strong:            #1E1E1E;   /* near-black for emphasis      */
+  --fg-muted:             #3A4A57;   /* nav / secondary body         */
+  --fg-quiet:             #7A7A7A;   /* meta / small labels          */
+  --fg-faint:             #AFAFAF;   /* placeholder / disabled       */
+
+  --border:               #EEEEEE;   /* hairline                     */
+  --border-strong:        #DDDDDD;   /* form inputs                  */
+  --border-overlay:       rgba(42, 42, 42, 0.2);  /* header divider  */
+
+  /* =========================================================
+     COLOR — SEMANTIC
+     ========================================================= */
+
+  --fg-link:              var(--action-blue);
+  --fg-link-hover:        var(--brand-blue-deep);
+  --selection-bg:         var(--action-blue);
+  --selection-fg:         #FFFFFF;
+
+  /* Social-login chips (popup) */
+  --social-facebook:      #3B5998;
+  --social-google:        #DD4B39;
+
+  /* =========================================================
+     TYPE — FAMILIES
+     ========================================================= */
+
+  --font-sans:            "Roboto", system-ui, -apple-system,
+                          "Segoe UI", "Helvetica Neue", Arial,
+                          sans-serif, "Segoe UI Emoji";
+  --font-display:         "Roboto", system-ui, sans-serif;    /* same family, heavier weight */
+  --font-mono:            ui-monospace, "SF Mono", "JetBrains Mono",
+                          "Menlo", "Consolas", monospace;
+  --font-icons:           "coolicons", system-ui, sans-serif;
+  --font-fa:              "Font Awesome 5 Free", "FontAwesome";
+
+  /* =========================================================
+     TYPE — WEIGHTS (Roboto ships 100/300/400/500/700/900)
+     ========================================================= */
+
+  --w-thin:               100;
+  --w-light:              300;   /* body paragraphs are *thin* on the marketing site */
+  --w-regular:            400;
+  --w-medium:             500;   /* nav, buttons */
+  --w-bold:               700;   /* all headings */
+  --w-black:              900;
+
+  /* =========================================================
+     TYPE — SCALE
+     ========================================================= */
+
+  --t-display:            50px;  /* hero h2                   */
+  --t-h1:                 30px;  /* section heading "h4" tag  */
+  --t-h2:                 24px;
+  --t-h3:                 20px;  /* card titles, footer h4    */
+  --t-sub-1:              23px;  /* sub-head emphasis         */
+  --t-sub-2:              20px;  /* sub-head-2                */
+  --t-body-lg:            18px;  /* service-item paragraphs   */
+  --t-body:               15px;  /* default p                 */
+  --t-small:              14px;  /* aux nav, store labels     */
+  --t-meta:               12px;  /* italic captions, footnotes */
+
+  --lh-tight:             1.1;
+  --lh-snug:              1.4;   /* hero 70/50 ≈ 1.4          */
+  --lh-body:              2.0;   /* 30/15 — marketing default */
+  --lh-ui:                1.5;
+
+  --ls-tight:             0;
+  --ls-nav:               1px;   /* uppercase-ish nav letterspacing */
+  --ls-button:            0.3px;
+
+  /* =========================================================
+     SPACING (loose 4 / 8 grid; cards have generous padding)
+     ========================================================= */
+
+  --s-1:                  4px;
+  --s-2:                  8px;
+  --s-3:                  12px;
+  --s-4:                  16px;
+  --s-5:                  20px;
+  --s-6:                  24px;
+  --s-8:                  32px;
+  --s-10:                 40px;
+  --s-12:                 48px;
+  --s-16:                 64px;
+  --s-20:                 80px;
+  --s-24:                 96px;
+  --s-32:                 128px;  /* section padding-top: 130px */
+
+  /* =========================================================
+     RADII — the brand leans HARD into rounded pills
+     ========================================================= */
+
+  --r-xs:                 4px;
+  --r-sm:                 8px;
+  --r-md:                 10px;   /* service-item base radius */
+  --r-lg:                 23px;   /* button pill (the marquee one) */
+  --r-xl:                 40px;   /* about-us box-item        */
+  --r-2xl:                50px;   /* pricing card radius      */
+  --r-irregular-tr:       50px;   /* service-item top-right corner only */
+  --r-full:               9999px;
+
+  /* =========================================================
+     SHADOWS (light, soft, never moody)
+     ========================================================= */
+
+  --shadow-xs:            0px 2px 8px rgba(0, 0, 0, 0.03);
+  --shadow-sm:            0px 0px 15px rgba(0, 0, 0, 0.07); /* default card */
+  --shadow-md:            0px 0px 15px rgba(0, 0, 0, 0.10); /* service-item */
+  --shadow-header:        0px 5px 8px rgba(0, 0, 0, 0.03);
+  --shadow-submenu:       0 2px 28px 0 rgba(0, 0, 0, 0.06);
+
+  /* =========================================================
+     MOTION
+     ========================================================= */
+
+  --ease:                 cubic-bezier(0.075, 0.82, 0.165, 1);
+  --t-fast:               0.3s;
+  --t-med:                0.5s;
+  --t-slow:               1s;
+
+  /* =========================================================
+     LAYOUT
+     ========================================================= */
+
+  --header-h:             100px;
+  --header-h-sticky:      80px;
+  --container-max:        1140px;  /* bootstrap container default */
+  --content-max:          968px;   /* prose width                  */
+}
+
+/* ============================================================
+   Base elements — semantic mapping
+   Apply these to plain HTML and you'll match the brand.
+   ============================================================ */
+
+html, body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  font-weight: var(--w-regular);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection { background: var(--selection-bg); color: var(--selection-fg); }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--fg);
+  font-weight: var(--w-bold);
+  margin: 0;
+  line-height: var(--lh-snug);
+}
+
+h1 { font-size: var(--t-display); line-height: 1.4; }
+h2 { font-size: var(--t-h1); }
+/* Marketing/landing pages that want the title-cased section h2 should
+   add `class="section-heading"` to a wrapper — see .section-heading h2 below. */
+h3 { font-size: var(--t-h3); }
+h4 { font-size: var(--t-h3); }
+
+p {
+  font-size: var(--t-body);
+  line-height: var(--lh-body);
+  font-weight: var(--w-light);
+  color: var(--fg);
+  margin: 0;
+}
+
+p.lead       { font-size: var(--t-sub-1); }
+p.sub        { font-size: var(--t-sub-2); }
+p.meta       { font-size: var(--t-meta); font-style: italic; color: var(--fg-quiet); }
+
+a {
+  color: var(--fg-link);
+  text-decoration: none;
+  transition: color var(--t-fast) var(--ease);
+}
+a:hover { color: var(--fg-link-hover); }
+
+code, kbd, samp, pre { font-family: var(--font-mono); font-size: 0.95em; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  margin: var(--s-8) 0;
+}
+
+/* The "section eyebrow + heading + sub" pattern used everywhere */
+.section-heading h2,
+.section-heading h4 {
+  font-size: var(--t-h1);
+  font-weight: var(--w-bold);
+  text-transform: capitalize;
+  color: var(--fg);
+  margin-bottom: 10px;
+}
+.section-heading h2 em,
+.section-heading h4 em {
+  font-style: normal;
+  color: var(--action-blue);
+}

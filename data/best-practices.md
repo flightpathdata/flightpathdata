@@ -1,13 +1,13 @@
 ---
-title: 🫧 Best Practices
+title:  Best Practices
 layout: home
-nav_order: 7
+nav_order: 9
 description: "Best practices for FlightPath projects and data preboarding success"
 parent: FlightPath Data
 permalink: /data/best-practices.html
 ---
 
-# 🫧 Best Practices
+#   Best Practices
 {: .no_toc }
 
 ### With FlightPath doing preboarding right is the default setting.
@@ -48,14 +48,18 @@ When you need to see the version of csvpaths used in a run, just look in the man
 
 ## Create READMEs in .md files
 
-To state the obvious, documentation is good! Preboarding projects should be easy and more static than most development work. Once you work out the format, create business rules, onboard data partners, and automate, ideally, the project just works. That means that when you go back to triage errors, make occasional updates to the rules, etc. it may be hard to pick up where you left off, if you don't have good docs.
+To state the obvious, documentation is good!
 
-You can document your projects two ways:
+Preboarding projects should be easy and more static than most development work. Once you work out the format, create validations, onboard data partners, and automate, ideally, the project just works until a business partner's contract changes. That means that when you revisit to triage errors, make occasional updates to the rules, etc. it could be hard to pick up where you left off. With good docs that won't be a problem.
+
+You can document your projects in three ways:
 * Use Markdown files to write everything down
 * Add comments to your csvpaths _(more on this below)_
-* And -- also obviously -- write clear, simple csvpath rules and schemas
+* And -- also obviously -- break the rules down and write clear, simple csvpaths
 
 Markdown is supported in the editor. To edit `.md` files as text click control-r (command-r on a Mac).
+
+As of 1.1.88, FlightPath automatically creates a Markdown documentation file when you create a named-file or named-paths group — a built-in prompt to document as you go.
 
 ![](../assets/app_images/toggle_edit.png)
 <div>Toggle text edit on the context menu or with control-r</div>
