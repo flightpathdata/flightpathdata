@@ -1,7 +1,7 @@
 ---
 title:  How-tos
 layout: home
-nav_order: 8
+nav_order: 9
 description: "Several simple FlightPath how-tos to get your preboarding automation prep started quickly."
 parent: FlightPath Data
 permalink: /data/examples.html

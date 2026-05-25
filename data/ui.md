@@ -1,7 +1,7 @@
 ---
 title:  UI
 layout: home
-nav_order: 7
+nav_order: 8
 description: "Shows highlights of FlightPath Data's simple, clean UI"
 parent: FlightPath Data
 permalink: /data/ui.html

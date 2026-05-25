@@ -1,7 +1,7 @@
 ---
 title:  Whats New
 layout: home
-nav_order: 5
+nav_order: 4
 parent: FlightPath Data
 description: "FlightPath Data features enable you to manage external tabular datasets, automate using CsvPath Framework, and run your DataOps infrastructure. "
 permalink: /data/new.html

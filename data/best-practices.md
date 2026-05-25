@@ -1,7 +1,7 @@
 ---
 title:  Best Practices
 layout: home
-nav_order: 9
+nav_order: 10
 description: "Best practices for FlightPath projects and data preboarding success"
 parent: FlightPath Data
 permalink: /data/best-practices.html

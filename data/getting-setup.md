@@ -1,7 +1,7 @@
 ---
 title:  Getting Started
 layout: home
-nav_order: 4
+nav_order: 5
 parent: FlightPath Data
 description: "An easy step-by-step for setting up FlightPath."
 permalink: /data/getting-started.html
