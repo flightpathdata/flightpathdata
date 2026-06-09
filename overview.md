@@ -9,7 +9,7 @@ nav_order: 1
 description: "Receiving data files from partners is messy. FlightPath Data raises productivity and lowers risk."
 permalink: /overview.html
 ---
-#  What FlightPath Solves 2
+#  What FlightPath Solves
 {: .icon-solves}
 
 ## AI-assisted Edge Data Governance
