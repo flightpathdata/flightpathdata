@@ -21,6 +21,13 @@ FlightPath Data has a powerful grid view editor for tabular data. The view has a
 
 <figure><img src="/assets/app_images/grid-editor.png" alt="" width="650"><figcaption></figcaption></figure>
 
+## Edit Excel Worksheets
+
+FlightPath lets you work with worksheets within Excel documents. Access a worksheet by right-clicking the name of the file in the project files tree. The context menu shows you a list of the worksheets to choose from.
+
+<figure><img src="/assets/app_images/select-worksheet.png" alt="" width="395"><figcaption></figcaption></figure>
+
+
 ## JSON and JSONL Simplicity
 
 A simple, productive JSON editor makes it easy to edit config files and JSONL files. Pretty-printing and checking well-formedness handles JSONL's particularities, as well as more typical JSON.

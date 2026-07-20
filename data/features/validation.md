@@ -91,7 +91,13 @@ And, of course, for future reference CsvPath Framework shows the references of t
 
 <figure><img src="/assets/app_images/rerun_metadata.png" alt="" width="625"><figcaption></figcaption></figure>
 
+## Transfers
 
+When a run completes you have a permanent, immutable, versioned, and accessible repository asset. However, downstream systems may want to collect their data from a location that is more accessible to them. FlightPath can transfer any results file, and the staged source data file, to any configured backend or any SFTP server identified to the named-paths group.
+
+<figure><img src="/assets/app_images/named-paths-transfers.png" alt="" width="625"><figcaption></figcaption></figure>
+ 
+Transfers are yet another way FlightPath is able to slot into existing operational environments with minimal required changes.
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {

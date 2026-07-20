@@ -28,7 +28,17 @@ Give the new named-file a simple, memorable name. Optionally, add a template if 
 
 <figure><img src="/assets/app_images/stage-directory.png" alt="" width="660"><figcaption></figcaption></figure>
 
-If you right-clicked a directory and selected `Stage data` the helps you import all the data files from that directory. FlightPath registers the files each as a named-file using the physical file's name or it stages all the files under a single named-file that you indicate. You can find files to register recursively and templates remains an option.
+Right-click a directory and select `Stage data` to import all the data files from that directory. FlightPath will either register the files each as a named-file using the physical file's name or it will stage all the files under a single named-file that you provide. You can find files to register recursively, use templates to customize the path to the staged bytes, and/or use a regular expression to filter the files in order to register only file names that match.
+
+Stage remote files and copy them into your FlightPath project in one action. Right-click in the whitespace of the project tree and select `Stage non-local file`. 
+
+<figure><img src="/assets/app_images/stage-non-local.png" alt="" width="660"><figcaption></figcaption></figure>
+
+If you attempt to register a file from an SFTP server FlightPath doesn't recognize it offers to configure the SFTP as a source for that specific named-file.
+
+<figure><img src="/assets/app_images/add-sftp-to-named-file.png" alt="" width="660"><figcaption></figcaption></figure>
+
+ 
 
 ## The Named-files Window
 
@@ -42,6 +52,13 @@ Your staged data from this point on is immutable and durably identified at the v
 
 In this view you can see that there are two versions of the `accounts` named-file in the `may` folder. The identity of each physical source file and the fingerprint of its immutable bytes will be carried through each processing step so that the lineage is clear, the operational details are apparent, and the runs are repeatable.
 
+
+## Find Staged Data
+
+When you register data files under a named-file you are creating a permanent, immutable, and versioned staged asset. Registered files are findable and accessible for direct use, validation runs, and forensic examination. The Find Data Dialog gives you a way to query the named-files to find the specific data you need.
+
+
+<figure><img src="/assets/app_images/find_data_dialog_2.png" alt="" width="600"><figcaption></figcaption></figure>
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
@@ -57,6 +74,5 @@ In this view you can see that there are two versions of the `accounts` named-fil
     });
   });
 </script>
-
 
 
