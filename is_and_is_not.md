@@ -1,7 +1,7 @@
 ---
 title:  Where FlightPath Fits
 layout: home
-nav_order: 6
+nav_order: 3
 description: "Where FlightPath and data preboarding fits"
 permalink: /positioning.html
 ---
