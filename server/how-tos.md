@@ -1,7 +1,7 @@
 ---
 title:   How-tos
 layout: home
-nav_order: 1
+nav_order: 2
 parent: FlightPath Server
 description: "Common FlightPath Server Use Cases"
 permalink: /server/use_cases.html

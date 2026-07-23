@@ -1,7 +1,7 @@
 ---
 title:  Support
 layout: home
-nav_order: 7
+nav_order: 6
 description: "FlightPath Data support is available (free, best-effort basis) in the FlightPath Github repo issues tracker"
 permalink: /support.html
 ---

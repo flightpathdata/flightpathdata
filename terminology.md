@@ -1,7 +1,7 @@
 ---
 title:   Terminology
 layout: home
-nav_order: 6
+nav_order: 7
 description: "Terms we use to talk about FlightPath Data and FlightPath Server"
 permalink: terminology.html
 ---
