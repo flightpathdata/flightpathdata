@@ -5,7 +5,7 @@
 title: FlightPath Data
 layout: home
 nav_order: 1
-description: "FlightPath Data is a DataOps tool for data preboarding that helps you bring external tabular datasets into the enterprise with confidence, efficiency, and quality. "
+description: "FlightPath Data is an Edge Data Governance app and infrastructure for controling inbound tabular data file feeds into the enterprise with confidence, efficiency, and quality. "
 permalink: /flightpath.html
 ---
 
@@ -92,15 +92,20 @@ FlightPath runs on MacOS and Windows 11. It supports all the same infrastructure
 FlightPath makes it easy to configure CsvPath Framework's integrations, including Slack, OpenTelemetry, OpenLineage, webhooks, and more.
 
 # Quick links
-💡 [Preboarding For Success](preboarding.html)
 
-✨ [FlightPath Features](features.html)
+ 💡 [Preboarding For Success](preboarding.html)
 
-### Get Started!
+ ✨ [FlightPath Features](features.html)
 
-When you open FlightPath a default project is automatically created. FlightPath generates a set of simple examples in every project to help you get going.
+ <img style='position: relative; bottom: -4px; width: 19px; height: 20px;' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAbCAMAAABY1h8eAAAAhFBMVEVHcEwii98ii98ii98ii98ii98diuEJiOQ/ms8tktiVpqj1xU67sosii98hi+ALg+dNsboahuN724SH6G9LqMOG5XWD43dlxaIBfeuC4nl/43jv6lrC0ohApcl543me5nDw6lry6ln161fd6GGD5HbF52eD43eo5W+D43ft6lru6lqb5HK1djt0AAAALHRSTlMAVZVn0//////+////gX7//f/9//7///1nZf///37///////99/0vSy0drOiM24HIAAAEASURBVHgBfNCFQsMwFEDRzKKz6Fjd+/9/SF4fEgLs1nuqIYTs9n92ILHjKYt+7sT7MmKUC4a7O3L4eReTSqkz6iVHriC56TVHueH5FeZ30m1FbxuKU4qU3jUyk2d5oilqYaz5OMVYfGaCN2d98N7pZCAoItUPGyD70BRNc+s0YHykD5g3QqN5b7m+kjd45Gfe3m8U7oPn8Ct54iOxwpcVi/fhUU2eiTVt1w+jA4OmiIkNXVkObcgRbB7K2BD+wGLsS6hviwzhU6JhORZtD4aNRYrwug4B6scmQfyUTBGLED8lKyrggp+S1c9RF0LWvssEGubifRqgVK2phRVoMzAAAJDJMpIoIJrEAAAAAElFTkSuQmCC'/> [CsvPath Framework](https://www.csvpath.org), the Edge Data Governance foundation of FlightPath Data
 
-The examples show you how to write CsvPath Language and deploy it to the CsvPath Framework. FlightPath also has in-context help for every feature and a documentation window that guides your use of CsvPath Framework capabilities.
+# Start Fast!
+
+FlightPath is packaged for the Apple and Microsoft Stores to ensure easy install. For other platforms see GitHub.
+
+When you open FlightPath a default project is automatically created. FlightPath generates an extensive set of simple examples in every project to help you get going. The examples show you how to write CsvPath Language and rapidly deploy it to the CsvPath Framework.
+
+FlightPath also has in-context help for every feature and a documentation window that guides your use of CsvPath Framework capabilities. And FlightPath's AI can help accelerate your learning and automation work.
 
 
 <script>

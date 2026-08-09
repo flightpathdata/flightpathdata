@@ -2,7 +2,7 @@
 title:  FlightPath and Compliance
 layout: home
 nav_order: 4
-description: "How FlightPath supports SecOps compliance mandates"
+description: "How FlightPath supports SecOps compliance mandates, such as SOC 2, HIPAA, with evidence of strong data supply chain and lineage controls"
 permalink: /data/compliance.html
 ---
 
@@ -13,10 +13,10 @@ Business operations leaders and compliance teams need effective inbound data man
 
 ## The FlightPath Data Compliance Gateway
 {: .no_toc }
-Secure MFT servers handoff data files to FlightPath for validation, identification, and archiving. This first-mile addresses compliance mandates, such as SOC 2, ISO 27001, and DCAM.
+Secure MFT servers hand off data files to FlightPath for validation, identification, and archiving. This first-mile addresses compliance mandates, such as SOC 2, ISO 27001, and DCAM.
 - Control input and output integrity
 - Apply durable labeling and identification
-- Document data definitions, flows, lineage, and provenance 
+- Document data definitions, flows, lineage, and provenance
 - Hook into enterprise observability systems
 - Inventory data and enable stewardship
 - Handle bulk retrieval requests by customers
@@ -51,16 +51,16 @@ FlightPath systematically records operational and lineage indicators immediately
 {: .no_toc }
 Native integrations with OpenLineage and OpenTelemetry allow compliance teams to visually see data flowing into the organization and set alerts. This automated tracking provides direct evidence to auditors.
 
-## Secure Identity and Immutable Versions 
+## Secure Identity and Immutable Versions
 Misidentified or incorrectly handled financial and operational data poses severe business risks and audit exposure.
 
-### Create a Secure Baseline: 
+### Create a Secure Baseline:
 {: .no_toc }
 As files land from data partners, the system assigns a durable identity and creates an immutable version history, fully traceable from downstream.
 
 ### Lower the Cost Of Reliable Forensics:
 {: .no_toc }
-Auditors and data engineers can pinpoint precisely what file arrived at any specific moment in time, what validation and upgrading was done, where the known-good data lives, and what downstream systems were notified. 
+Auditors and data engineers can pinpoint precisely what file arrived at any specific moment in time, what validation and upgrading was done, where the known-good data lives, and what downstream systems were notified.
 
 ## End High-Risk and Expensive Manual Audits
 Manual data checking by business operations or subject matter experts is slow and error prone. Human judgement is a primary vector for compliance lapses.
@@ -71,7 +71,7 @@ Automated validation eliminates manual data scrubbing by Business Operations and
 
 ### Maximize Throughput:
 {: .no_toc }
-Automated data validation enables the business operations team to handle more data partners without linear headcount increases or loss of control. Fewer errors and clear forensics free up IT to focus on adding value, not chasing losses. 
+Automated data validation enables the business operations team to handle more data partners without linear headcount increases or loss of control. Fewer errors and clear forensics free up IT to focus on adding value, not chasing losses.
 
 
 <script>

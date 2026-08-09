@@ -2,7 +2,7 @@
 title:   Terminology
 layout: home
 nav_order: 7
-description: "Terms we use to talk about FlightPath Data and FlightPath Server"
+description: "Terms we use to talk about FlightPath Data, Edge Data Goveranance, Preboarding, and FlightPath Server"
 permalink: terminology.html
 ---
 
@@ -52,7 +52,7 @@ There are four main config files in the FlightPath family:
 * `config/app_config.ini`: the FlightPath Server config
 * `config/generator.ini`: the FlightPath AI config
 
-These config files are non-overlapping. In prinicple the `.ini` files can be consolidated into one.
+These config files are non-overlapping. In principle the `.ini` files can be consolidated into one.
 
 All settings have sensible defaults that should work for many non-production purposes. The CsvPath Framework config.ini is described on [csvpath.org](https://www.csvpath.org). FlightPath Data's `.flightpath` file is human editable, but not intended for manual file changes.
 
@@ -112,7 +112,7 @@ When you have one file and three validation rules, named-groups may seem like a 
 
 ## Named-results
 
-Results are named identically to the named-paths group that created them. Within the name each run from that named-paths group has a datestamped directory, its run dir. Below the run dir are directories with run output files for each of the csvpaths in the named-paths group.
+Results are named identically to the named-paths group that created them. Within the name each run from that named-paths group has a date-stamped directory, its run dir. Below the run dir are directories with run output files for each of the csvpaths in the named-paths group.
 
 Generally we just call named-results, results, even though actual run output is lower down the tree.
 
@@ -131,7 +131,7 @@ Of course, you have more limited access to files when you are using Server. For 
 
 FlightPath Server projects are CsvPath Framework projects. In that way, they are virtually the same as FlightPath Data projects. In fact, you can think of a FlightPath Server project being basically just a `config.ini` file, plus an `env.json` file, living in a `config` directory within a folder named for the project. That is almost exactly the same as a local FlightPath Data project.
 
-A server project lives in Server's projects dir, within a directory named for a SHA265 hash representing an API that owns the project.
+A server project lives in Server's projects directory, within a folder named for a SHA256 hash representing an API that owns the project.
 
 ## Register
 
