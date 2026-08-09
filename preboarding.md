@@ -2,7 +2,7 @@
 title:  Data Preboarding Success
 layout: home
 nav_order: 5
-description: "Data preboarding is a DataOps process for bringing external tabular datasets into the enterprise and publishing them internally in a reliable way. "
+description: "Data preboarding is the common DataOps process that brings external tabular datasets into the enterprise and publishing them internally in a reliable way. FlightPath Data is the first COTS and commercial open source tool that directly addresses data preboarding challenges and provides real Edge Data Goveranance."
 permalink: /preboarding.html
 ---
 

@@ -2,7 +2,7 @@
 title:  Support
 layout: home
 nav_order: 6
-description: "FlightPath Data support is available (free, best-effort basis) in the FlightPath Github repo issues tracker"
+description: "FlightPath Data support is available in the FlightPath Github repo issues tracker. Commercial support is available to corporate users from Atesta Analytics for implementation and ongoing maintenance."
 permalink: /support.html
 ---
 
@@ -13,7 +13,7 @@ FlightPath Data is an open source product. Unpaid support is available on a best
 
 
 {: .new }
-For project help contact <a href='mailto:dkershaw@atestaanalytics.com'>dkershaw@atestaanalytics.com</a>.
+For commercial project help from Atesta Analytics or one of its partners, contact <a href='mailto:dkershaw@atestaanalytics.com'>dkershaw@atestaanalytics.com</a>.
 
 
 <script>

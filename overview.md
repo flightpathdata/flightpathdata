@@ -6,7 +6,7 @@ title:   What FlightPath Solves
 layout: home
 parent: FlightPath Data
 nav_order: 1
-description: "Receiving data files from partners is messy. FlightPath Data raises productivity and lowers risk."
+description: "Receiving tabular data files, CSV, Excel, and JSONL, from partners is inherently messy. FlightPath Data raises productivity and lowers risk to lower the cost of data operations by addressing the source of the problem as early as possible."
 permalink: /overview.html
 ---
 #  What FlightPath Solves

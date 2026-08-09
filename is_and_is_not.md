@@ -2,7 +2,7 @@
 title:  Where FlightPath Fits
 layout: home
 nav_order: 3
-description: "Where FlightPath and data preboarding fits"
+description: "Where FlightPath Data and its data preboarding architecture fits in the data ingestion and integration landscape"
 permalink: /positioning.html
 ---
 

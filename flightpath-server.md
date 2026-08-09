@@ -2,7 +2,7 @@
 title: FlightPath Server
 layout: home
 nav_order: 3
-description: "FlightPath Server is data ingestion infrastructure that lands inbound tabular datasets with confidence, efficiency, and quality. "
+description: "FlightPath Server is a no-code/low-code data ingestion infrastructure that lands inbound tabular datasets with confidence, efficiency, and quality, before they can corrupt downstream systems"
 permalink: /server.html
 nav_fold: false
 ---
