@@ -21,7 +21,7 @@
    csvpath.org docs site for nav glyphs). 1k+ icons, BSD. */
 @font-face {
   font-family: "coolicons";
-  src: url("/assets/fonts/coolicons/coolicons.v4.1/Webfont/fonts/coolicons.ttf") format("truetype");
+  src: url("fonts/coolicons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -65,7 +65,7 @@
      CTA on the marketing site. Cool cyan→indigo, very brand. */
   --grad-cyan:            #28E1FD;
   --grad-indigo:          #5B68EB;
-  --gradient-button:      linear-gradient(105deg, #5B68EB 0%, #28E1FD 100%); /* @kind color */
+  --gradient-button:      linear-gradient(105deg, #5B68EB 0%, #28E1FD 100%);
 
   /* Purple secondary — appears once, on the "free quote" form
      submit button. Keep available, use rarely. */
@@ -120,12 +120,12 @@
      TYPE — WEIGHTS (Roboto ships 100/300/400/500/700/900)
      ========================================================= */
 
-  --w-thin:               100; /* @kind font */
-  --w-light:              300; /* @kind font */   /* body paragraphs are *thin* on the marketing site */
-  --w-regular:            400; /* @kind font */
-  --w-medium:             500; /* @kind font */   /* nav, buttons */
-  --w-bold:               700; /* @kind font */   /* all headings */
-  --w-black:              900; /* @kind font */
+  --w-thin:               100;
+  --w-light:              300;   /* body paragraphs are *thin* on the marketing site */
+  --w-regular:            400;
+  --w-medium:             500;   /* nav, buttons */
+  --w-bold:               700;   /* all headings */
+  --w-black:              900;
 
   /* =========================================================
      TYPE — SCALE
@@ -142,14 +142,14 @@
   --t-small:              14px;  /* aux nav, store labels     */
   --t-meta:               12px;  /* italic captions, footnotes */
 
-  --lh-tight:             1.1; /* @kind font */
-  --lh-snug:              1.4; /* @kind font */   /* hero 70/50 ≈ 1.4          */
-  --lh-body:              2.0; /* @kind font */   /* 30/15 — marketing default */
-  --lh-ui:                1.5; /* @kind font */
+  --lh-tight:             1.1;
+  --lh-snug:              1.4;   /* hero 70/50 ≈ 1.4          */
+  --lh-body:              2.0;   /* 30/15 — marketing default */
+  --lh-ui:                1.5;
 
-  --ls-tight:             0; /* @kind font */
-  --ls-nav:               1px; /* @kind font */   /* uppercase-ish nav letterspacing */
-  --ls-button:            0.3px; /* @kind font */
+  --ls-tight:             0;
+  --ls-nav:               1px;   /* uppercase-ish nav letterspacing */
+  --ls-button:            0.3px;
 
   /* =========================================================
      SPACING (loose 4 / 8 grid; cards have generous padding)
@@ -196,19 +196,19 @@
      MOTION
      ========================================================= */
 
-  --ease:                 cubic-bezier(0.075, 0.82, 0.165, 1); /* @kind other */
-  --t-fast:               0.3s; /* @kind other */
-  --t-med:                0.5s; /* @kind other */
-  --t-slow:               1s; /* @kind other */
+  --ease:                 cubic-bezier(0.075, 0.82, 0.165, 1);
+  --t-fast:               0.3s;
+  --t-med:                0.5s;
+  --t-slow:               1s;
 
   /* =========================================================
      LAYOUT
      ========================================================= */
 
-  --header-h:             100px; /* @kind spacing */
-  --header-h-sticky:      80px; /* @kind spacing */
-  --container-max:        1140px; /* @kind spacing */  /* bootstrap container default */
-  --content-max:          968px; /* @kind spacing */   /* prose width                  */
+  --header-h:             100px;
+  --header-h-sticky:      80px;
+  --container-max:        1140px;  /* bootstrap container default */
+  --content-max:          968px;   /* prose width                  */
 }
 
 /* ============================================================

@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 title:   What FlightPath Solves
+tab_title: What FlightPath Solves
 layout: home
 parent: FlightPath Data
 nav_order: 1

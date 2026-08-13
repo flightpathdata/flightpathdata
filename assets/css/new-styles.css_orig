@@ -20,9 +20,17 @@ a { color: inherit; text-decoration: none; }
 button { font: inherit; cursor: pointer; }
 ul { list-style: none; }
 
+a.atesta-link {
+   color:#fff;
+}
+a.atesta-link:hover {
+   text-shadow: 1px 0 0 currentColor;
+   color:#fff;
+}
+
 /* ---------- Containers ---------- */
 .wrap {
-   max-width: 1300px;
+   max-width: 1200px;
    /*margin: 0 auto 60px auto;*/
    margin: 0 auto 20px auto;
    padding: 0 32px;
@@ -228,43 +236,43 @@ footer.footer {
 }
 
 .collect {
-  background-image: url('../assets/images/collect.png');
+  background-image: url('/assets/images/collect.png');
 }
 
 .collect:hover {
-  background-image: url('../assets/images/collect-light.png');
+  background-image: url('/assets/images/collect-light.png');
 }
 
 .identify {
-  background-image: url('../assets/images/identify.png');
+  background-image: url('/assets/images/identify.png');
 }
 
 .identify:hover {
-  background-image: url('../assets/images/identify-light.png');
+  background-image: url('/assets/images/identify-light.png');
 }
 
 .validate {
-  background-image: url('../assets/images/validate.png');
+  background-image: url('/assets/images/validate.png');
 }
 
 .validate:hover {
-  background-image: url('../assets/images/validate-light.png');
+  background-image: url('/assets/images/validate-light.png');
 }
 
 .lineage {
-  background-image: url('../assets/images/lineage.png');
+  background-image: url('/assets/images/lineage.png');
 }
 
 .lineage:hover {
-  background-image: url('../assets/images/lineage-light.png');
+  background-image: url('/assets/images/lineage-light.png');
 }
 
 .publish {
-  background-image: url('../assets/images/publish.png');
+  background-image: url('/assets/images/publish.png');
 }
 
 .publish:hover {
-  background-image: url('../assets/images/publish-light.png');
+  background-image: url('/assets/images/publish-light.png');
 }
 
 

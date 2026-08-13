@@ -20,17 +20,9 @@ a { color: inherit; text-decoration: none; }
 button { font: inherit; cursor: pointer; }
 ul { list-style: none; }
 
-a.atesta-link {
-   color:#fff;
-}
-a.atesta-link:hover {
-   text-shadow: 1px 0 0 currentColor;
-   color:#fff;
-}
-
 /* ---------- Containers ---------- */
 .wrap {
-   max-width: 1200px;
+   max-width: 1300px;
    /*margin: 0 auto 60px auto;*/
    margin: 0 auto 20px auto;
    padding: 0 32px;
@@ -64,11 +56,6 @@ a.atesta-link:hover {
 .btn-primary:hover {
     color:    var(--brand-yellow);
     /*background: var(--brand-blue-deep);*/
-}
-
-@font-face {
-  font-family: 'coolicons';
-  src: url('/assets/coolicons.ttf') format('truetype');
 }
 
 .csvpath {
@@ -105,9 +92,7 @@ footer.footer {
     gap: 24px;
   }
   .product-card {
-    background: var(--paper-white);
     border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
     padding: 32px;
     box-shadow: var(--shadow-sm);
     display: flex;
@@ -125,7 +110,6 @@ footer.footer {
   .product-name {
     font-size: 24px;
     font-weight: 500;
-    color: var(--ink);
     margin-bottom: 8px;
 
     display: flex;
@@ -136,7 +120,6 @@ footer.footer {
   }
   .product-desc {
     font-size: 14px;
-    color: var(--ink-soft);
     line-height: 1.6;
     margin-bottom: 20px;
   }
@@ -156,14 +139,12 @@ footer.footer {
   }
   .product-list li {
     font-size: 13px;
-    color: var(--ink-mid);
     display: flex;
     gap: 8px;
     line-height: 1.4;
   }
   .product-list li::before {
     content: '—';
-    color: var(--ink-ghost);
     flex-shrink: 0;
   }
 /* ----------------- */
@@ -176,19 +157,13 @@ footer.footer {
     gap: 7px;
     border: 1px solid var(--border-strong);
     border-radius: 23px;
-    color: var(--ink-mid);
     font-size: 13px;
     font-weight: 500;
     padding: 8px 16px;
     text-decoration: none;
-    transition: border-color .15s, color .8s;
+    transition: border-color .15s, color 1.5s;
     margin-right: 8px;
     margin-bottom: 0;
-  }
-  .btn-outline:hover { border-color: var(--runway); color: var(--runway); }
-  .btn-outline.apple, .btn-outline.microsoft {
-    background:var(--signal);
-    color:#fff;
   }
 
 /* ---- */
@@ -236,43 +211,43 @@ footer.footer {
 }
 
 .collect {
-  background-image: url('/assets/images/collect.png');
+  background-image: url('../images/collect.png');
 }
 
 .collect:hover {
-  background-image: url('/assets/images/collect-light.png');
+  background-image: url('../images/collect-light.png');
 }
 
 .identify {
-  background-image: url('/assets/images/identify.png');
+  background-image: url('../images/identify.png');
 }
 
 .identify:hover {
-  background-image: url('/assets/images/identify-light.png');
+  background-image: url('../images/identify-light.png');
 }
 
 .validate {
-  background-image: url('/assets/images/validate.png');
+  background-image: url('../images/validate.png');
 }
 
 .validate:hover {
-  background-image: url('/assets/images/validate-light.png');
+  background-image: url('../images/validate-light.png');
 }
 
 .lineage {
-  background-image: url('/assets/images/lineage.png');
+  background-image: url('../images/lineage.png');
 }
 
 .lineage:hover {
-  background-image: url('/assets/images/lineage-light.png');
+  background-image: url('../images/lineage-light.png');
 }
 
 .publish {
-  background-image: url('/assets/images/publish.png');
+  background-image: url('../images/publish.png');
 }
 
 .publish:hover {
-  background-image: url('/assets/images/publish-light.png');
+  background-image: url('../images/publish-light.png');
 }
 
 
