@@ -1,0 +1,158 @@
+/* ============================================================
+   Contact form — used on contact.html and at the foot of
+   partners.html. Posts to Web3Forms; works without JavaScript
+   (plain form POST + redirect), and enhances to an inline
+   success state when JS is available.
+
+   ONE thing to configure: the access_key hidden input in the
+   markup. Everything else is styling.
+   ============================================================ */
+
+.cform-sec { padding: 96px 0 120px; }
+.cform-sec--onwhite { background: #fff; }
+
+.cform-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 96px;
+  align-items: start;
+}
+
+/* ---- Left column: framing --------------------------------- */
+.cform-aside h2 {
+  font-size: 42px; font-weight: 400;
+  line-height: 1.1; letter-spacing: -1px;
+  max-width: 420px; margin-bottom: 24px;
+  text-wrap: balance;
+}
+.cform-aside h2 em { font-style: normal; font-weight: 700; color: var(--action-blue); }
+.cform-aside p {
+  font-size: 17px; font-weight: 300; line-height: 1.7;
+  color: var(--fg); max-width: 400px;
+  margin-bottom: 32px;
+}
+.cform-aside dl {
+  border-top: 1px solid rgba(42,42,42,0.12);
+  padding-top: 20px; max-width: 400px;
+}
+.cform-aside dt {
+  font-family: var(--font-mono); font-size: 11.5px;
+  letter-spacing: 1.3px; text-transform: uppercase;
+  color: var(--fg-quiet); margin-bottom: 6px;
+}
+.cform-aside dd {
+  margin: 0 0 18px;
+  font-size: 15.5px; font-weight: 300; line-height: 1.6;
+  color: var(--fg);
+}
+.cform-aside dd:last-child { margin-bottom: 0; }
+
+/* ---- The form --------------------------------------------- */
+.cform { position: relative; }
+.cform__rows { display: grid; gap: 26px; }
+.cform__pair { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+
+.cfield { display: flex; flex-direction: column; gap: 8px; }
+.cfield label {
+  font-family: var(--font-mono); font-size: 11.5px;
+  letter-spacing: 1.3px; text-transform: uppercase;
+  color: var(--fg-quiet);
+}
+.cfield label .opt { text-transform: none; letter-spacing: 0; color: var(--fg-faint); }
+
+.cfield input[type="text"],
+.cfield input[type="email"],
+.cfield select,
+.cfield textarea {
+  font-family: inherit;
+  font-size: 16px; font-weight: 300; line-height: 1.5;
+  color: var(--fg);
+  background: #fff;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  padding: 13px 15px;
+  width: 100%;
+  transition: border-color .2s var(--ease), box-shadow .2s var(--ease);
+}
+.cfield textarea { min-height: 132px; resize: vertical; }
+.cfield select { appearance: none; cursor: pointer; padding-right: 40px; background-image: none; }
+.cfield--select { position: relative; }
+.cfield--select::after {
+  content: '';
+  position: absolute; right: 16px; bottom: 21px;
+  width: 7px; height: 7px;
+  border-right: 1.5px solid var(--fg-quiet);
+  border-bottom: 1.5px solid var(--fg-quiet);
+  transform: rotate(45deg);
+  pointer-events: none;
+}
+.cfield input:focus, .cfield select:focus, .cfield textarea:focus {
+  outline: none;
+  border-color: var(--action-blue);
+  box-shadow: 0 0 0 3px rgba(0,102,204,0.12);
+}
+.cfield input::placeholder, .cfield textarea::placeholder { color: var(--fg-faint); }
+
+/* Honeypot — bots fill hidden inputs, humans never see this. */
+.cform__hp { position: absolute; left: -9999px; opacity: 0; height: 0; overflow: hidden; }
+
+.cform__foot {
+  display: flex; align-items: center; gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.cform__fine {
+  font-size: 13px; font-weight: 300; line-height: 1.5;
+  color: var(--fg-faint); max-width: 300px;
+}
+.cform button[type="submit"] { cursor: pointer; border: 0; font-family: inherit; }
+.cform button[type="submit"][disabled] { opacity: 0.55; cursor: default; }
+
+/* ---- Result states — swapped in by the inline script ------ */
+.cform__msg { display: none; margin-top: 24px; }
+.cform.is-error .cform__msg--error { display: block; }
+
+.cform__msg--error {
+  font-size: 15px; font-weight: 300; line-height: 1.6;
+  color: #A32020;
+  border-left: 2px solid #A32020;
+  padding-left: 14px;
+}
+
+.cform-done { display: none; }
+.cform-wrap.is-sent .cform-done { display: block; }
+.cform-wrap.is-sent .cform { display: none; }
+.cform-done__mark {
+  font-family: var(--font-mono); font-size: 11.5px;
+  letter-spacing: 1.3px; text-transform: uppercase;
+  color: var(--action-blue); margin-bottom: 14px;
+}
+.cform-done h3 {
+  font-size: 30px; font-weight: 400; letter-spacing: -0.6px;
+  line-height: 1.2; margin-bottom: 14px;
+}
+.cform-done p {
+  font-size: 16.5px; font-weight: 300; line-height: 1.7;
+  color: var(--fg-quiet); max-width: 440px;
+}
+
+/* ---- Short prompt strip (homepage / partners page) -------- */
+.cprompt { padding: 0 0 96px; }
+.cprompt__inner {
+  border-top: 1px solid rgba(42,42,42,0.12);
+  /* longhand only — the `padding` shorthand would wipe .wrap's 0 32px inset */
+  padding-top: 34px;
+  display: flex; align-items: center; justify-content: space-between;
+  flex-wrap: wrap; gap: 24px;
+}
+.cprompt__inner p {
+  font-size: 18px; font-weight: 300; line-height: 1.6;
+  color: var(--fg); max-width: 620px; margin: 0;
+}
+
+/* ---- Narrow ---------------------------------------------- */
+@media (max-width: 900px) {
+  .cform-grid { grid-template-columns: 1fr; gap: 52px; }
+  .cform__pair { grid-template-columns: 1fr; }
+  .cform-sec { padding: 64px 0 84px; }
+}
