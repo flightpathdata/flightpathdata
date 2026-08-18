@@ -19,7 +19,7 @@ permalink: /overview.html
 
 Data file feeds from external partners are notoriously messy and hard to manage. Files arrive late, in the wrong format, with missing columns, bad values, and no reliable identity. Manual checking is slow, error-prone, and doesn't scale. MFT tools focus on secure delivery without considering data content and ETL and iPaaS tools treat this as someone else's problem. The blind spot of those tools leaves a gap where invalid or misidentified data slips through. FlightPath closes that gap.
 
-FlightPath Data is the first commercial-off-the-shelf (COTS) tool for Edge Data Governance of tabular data. Its mission is to lower cost and raise quality in a way no general-purpose tool can. For this job, you need a socket wrench, not a Swiss Army knife.
+FlightPath Data is **the first commercial-off-the-shelf (COTS) tool for Edge Data Governance of tabular data**. Its mission is to lower cost and raise quality in a way no general-purpose tool can. For this job, you need a socket wrench, not a Swiss Army knife.
 
 FlightPath uses asynchronous agentic AI and a low-code/no-code framework to automate data arrival and eliminate manual business operations tasks at the transactional edge, ahead of ETL.
 

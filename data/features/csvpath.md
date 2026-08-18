@@ -3,7 +3,7 @@ title:  CsvPath Validation Language
 layout: home
 nav_order: 8
 parent:  Features
-description: "FlightPath Data helps you use CsvPath Validation Language to validate CSV, Excel, JSONL, and data frames. "
+description: "FlightPath Data helps you use CsvPath Validation Language to validate CSV, Excel, NDJSON/JSONL, and data frames. "
 permalink: /data/features/csvpath.html
 ---
 
@@ -18,7 +18,7 @@ There has never been such a high-powered validation capability for tabular data 
 
 This page gives a high-level summary of some of the categories and functions available. It is just a subset to whet your appetite to dig into the full documentation within FlightPath Data or the GitHub site. There you can learn more about each function, as well as using variable, qualifiers, modes, and all the other rich capabilities.
 
-All functions work with CSV (including TSV and other delimited variants), Excel, JSONL, and data frames. The counts next to the category headers are approximate. Not all functions are shown.
+All functions work with CSV (including TSV and other delimited variants), Excel, NDJSON/JSONL, and data frames. The counts next to the category headers are approximate. Not all functions are shown.
 
 ## Existance Tests - 5
 #### all()

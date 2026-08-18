@@ -13,7 +13,7 @@ Business operations leaders and compliance teams need effective inbound data man
 
 ## The FlightPath Data Compliance Gateway
 {: .no_toc }
-Secure MFT servers hand off data files to FlightPath for validation, identification, and archiving. This first-mile addresses compliance mandates, such as SOC 2, ISO 27001, and DCAM.
+Secure MFT servers hand off data files to FlightPath for validation, identification, and archiving. This first-mile addresses compliance mandates, such as SOC 2, ISO 27001, HIPAA, and DCAM.
 - Control input and output integrity
 - Apply durable labeling and identification
 - Document data definitions, flows, lineage, and provenance

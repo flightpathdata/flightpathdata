@@ -23,7 +23,7 @@ Projects are also the unit of deployment to FlightPath Server, which means keepi
 ## Editors
 FlightPath includes purpose-built editors for every file type in a preboarding project:
 
-<span style='color:#4466ee'>▶</span> A grid editor for CSV, XLSX, and JSONL data files <br/>
+<span style='color:#4466ee'>▶</span> A grid editor for CSV, XLSX, NDJSON, and JSONL data files <br/>
 <span style='color:#4466ee'>▶</span> A JSON editor for metadata files <br/>
 <span style='color:#4466ee'>▶</span> A grid-structured JSON editor for configuration and operations data <br/>
 <span style='color:#4466ee'>▶</span> A syntax-highlighted CsvPath Language editor with functions lookup and one-off test runs, and <br/>

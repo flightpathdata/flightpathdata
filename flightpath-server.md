@@ -43,7 +43,7 @@ FlightPath Server is open, free, and cross-platform. It is bundled with FlightPa
 
 
 ## What Is FlightPath Server?
-FlightPath Server is a REST API that enables inbound CSV, JSONL, and Excel files automation. It applies quality and governance controls, and stages them for downstream consumers. FlightPath Server runs the preboarding workflows you build in FlightPath Data in a multi-user, multi-project production environment, without manual intervention.
+FlightPath Server is a REST API that enables you to automate inbound CSV, JSONL/NDJSON, and Excel file data preboarding. It applies quality and governance controls, and stages them for downstream consumers. FlightPath Server runs the preboarding workflows you build in FlightPath Data in a multi-user, multi-project production environment, without manual intervention.
 
 With FlightPath Server you can:
 

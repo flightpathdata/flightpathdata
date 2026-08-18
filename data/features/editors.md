@@ -15,7 +15,7 @@ permalink: /data/features/editors.html
 {:toc}
 
 
-## CSV, XLSX, and JSONL
+## CSV, XLSX, NDJSON, and JSONL
 
 FlightPath Data has a powerful grid view editor for tabular data. The view has advanced capabilities, including copying irregular cells and creating new files from the clipboard. You can toggle to view the raw text anytime.
 

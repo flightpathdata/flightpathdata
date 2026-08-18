@@ -54,7 +54,7 @@ The solution is to handle data files correctly at the point they first enter the
 # Development, BizOps, and TechOps
 
 
-FlightPath preboarding process captures CSV, JSONL, and Excel file at the edge and presents versioned, valid, and cleaned up data to downstream workflows, data lakes, applications, analytics, and AI.
+FlightPath preboarding process captures CSV, JSONL/NDJSON, and Excel files at the edge and presents versioned, valid, and cleaned up data to downstream workflows, data lakes, applications, analytics, and AI.
 
 FlightPath Data supports three teams: Development, BizOps, and IT.
 

@@ -117,9 +117,17 @@
 
 .partner-row__mark { padding-top: 4px; }
 .partner-row__mark img {
-  height: 38px; width: auto; max-width: 190px;
+  height: auto;
+  width: auto;
+  max-height: 55px;
+  max-width: 220px;
   object-fit: contain; object-position: left center;
 }
+
+    .with_flightpath_para {
+        padding-bottom:7px;
+    }
+
 .partner-row__cat {
   display: block;
   font-family: var(--font-mono); font-size: 11.5px;
