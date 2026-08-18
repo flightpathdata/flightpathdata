@@ -15,13 +15,13 @@ permalink: /architecture.html
 
 
 ## Preboarding's Place Within the Data Lifecycle
-Preboarding is the process where raw data files from partners become trusted data products ready for end users. FlightPath Data and FlightPath Server are the architecture for effective data preboarding.
+Preboarding is where raw data files from partners become trusted data products ready for consumers. FlightPath Data and FlightPath Server provide the architecture for effective data preboarding.
 
 <figure style='text-align:center'><img src="../assets/images/data_file_flow.png" alt="Preboarding Within The Data Lifecycle " width="800"><figcaption></figcaption></figure>
 
 
 
-## Purpose-built Core, State Of the Art integrations
+## Purpose-built Core, State Of the Art Integrations
 
 FlightPath Data, FlightPath Server, and the CsvPath Framework together take data file feed ingestion to the next level. The solution is developer-friendly, AI-driven, opinionated, and flexible, keeping system design effort low. Not only do the components build on one anther, they also support the leading clouds, observability, data management, and notification tools you already use.
 
@@ -64,9 +64,9 @@ Preboarding is just one stop on data's journey from source to consumer. FlightPa
 * Arms-length integrations using webhooks and APIs
 * Support for sending data processing events to OpenTelemetry and OpenLineage platforms
 
-Moreover, FlightPath gives you the ability to quickly create custom validation functions and custom event listeners in simple Python classes, sandboxed to specific FlightPath projects.
-
 <figure style='text-align:center'><img src="../assets/images/integrated-components.png" alt="Integrations With Common DataOps and DevOps Tools" width="720"><figcaption></figcaption></figure>
+
+Moreover, FlightPath gives you the ability to quickly create custom validation functions and custom event listeners in simple Python classes. Custom code is sandboxed to specific projects in FlightPath Data or Server. Flexibility is built in.
 
 
 <script>
