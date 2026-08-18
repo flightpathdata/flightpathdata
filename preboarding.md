@@ -17,7 +17,7 @@ permalink: /preboarding.html
 Data preboarding is the practice of treating inbound data file feeds as first-class operational assets from the moment data arrives. In the preboarding step, every file gets a durable identity, a location in an immutable archive, and a documented chain of custody through validation, upgrading, and publishing. Human judgement and manual processing are minimized, and downstream consumers can trust and explain the data they depend on.
 
 {: .important}
-FlightPath Data was built for data preboarding. It makes ingesting data partner feeds low-touch, fast, consistent, and manageable at any scale. For more background, ideas, and deeper technical dives, visit [csvpath.org](https://www.csvpath.org).
+FlightPath Data is the first commercial-off-the-shelf (COTS) infrastructure for data preboarding. It makes ingesting data partner feeds low-touch, fast, consistent, and manageable at any scale by enforcing data contracts at the edge. For deeper technical dives, see the How-tos on [FlightPath's website](https://www.flightpathdata.com) and [csvpath.org](https://www.csvpath.org).
 
 Millions of companies exchange regular tabular datasets every day. Too often, when new data arrives it goes straight into the data lake, application, or analytics system without a methodical process. The result is that downstream consumers have low trust in data that is already too expensive due to manual interventions.
 
