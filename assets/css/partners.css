@@ -51,7 +51,7 @@
    Each radio sits immediately before its own label. Both the active
    tab and the visible panel are matched with :has() on .ptabs —
    sibling combinators off :checked compute stale on some engines.  */
-.ptabs { padding-bottom: 120px; }
+.ptabs { padding-bottom: 0; } /* was 120px */
 .ptabs__radio { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 
 .ptabs__bar {
