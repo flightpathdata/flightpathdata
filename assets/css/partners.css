@@ -82,11 +82,13 @@
    reliably here — both `~ .bar label` and `:checked + label` compute stale. */
 .ptabs:has(#cat-automation:checked) label[for="cat-automation"],
 .ptabs:has(#cat-quality:checked) label[for="cat-quality"],
+.ptabs:has(#cat-orgs:checked) label[for="cat-orgs"],
 .ptabs:has(#cat-services:checked) label[for="cat-services"] {
   color: var(--fg); border-bottom-color: var(--action-blue);
 }
 .ptabs:has(#cat-automation:checked) label[for="cat-automation"] .count,
 .ptabs:has(#cat-quality:checked) label[for="cat-quality"] .count,
+.ptabs:has(#cat-orgs:checked) label[for="cat-orgs"] .count,
 .ptabs:has(#cat-services:checked) label[for="cat-services"] .count {
   color: var(--action-blue);
 }
@@ -94,6 +96,7 @@
 .ptab-panel { display: none; }
 .ptabs:has(#cat-automation:checked) .ptab-panel--automation,
 .ptabs:has(#cat-quality:checked) .ptab-panel--quality,
+.ptabs:has(#cat-orgs:checked) .ptab-panel--orgs,
 .ptabs:has(#cat-services:checked) .ptab-panel--services { display: block; }
 
 /* ---- Category blurb -------------------------------------- */
